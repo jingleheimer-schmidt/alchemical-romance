@@ -20,7 +20,7 @@ local chemicalDissolver = {
     allowed_effects = {"speed", "consumption", "pollution"},
     minable = {mining_time = 0.5, result = "chemical-dissolver-item"},
     crafting_categories = {"dissolving"},
-    crafting_speed = 1.25,
+    crafting_speed = 1,
     result_inventory_size = "8",
     source_inventory_size = "1",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
@@ -168,7 +168,7 @@ local chemicalCombiner = {
     dying_explosion = "assembling-machine-3-explosion",
     alert_icon_shift = util.by_pixel(-3, -12),
     crafting_categories = {"combining"},
-    crafting_speed = 1.25,
+    crafting_speed = 1,
     overload_multiplyer = 100,
     energy_source =
     {

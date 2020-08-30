@@ -35,31 +35,36 @@ local compoundSubgroup = {
 local itemDissolvingSubgroup = {
     type = "item-subgroup",
     name = "item-dissolving",
-    group = "alchemical-romance-group"
+    group = "alchemical-romance-group",
+    order = "d"
 }
 
 local compoundDissolvingSubgroup = {
     type = "item-subgroup",
     name = "compound-dissolving",
-    group = "alchemical-romance-group"
+    group = "alchemical-romance-group",
+    order = "e"
 }
 
 local itemCombiningSubgroup = {
     type = "item-subgroup",
     name = "item-combining",
-    group = "alchemical-romance-group"
+    group = "alchemical-romance-group",
+    order = "b"
 }
 
 local compoundCombiningSubgroup = {
     type = "item-subgroup",
     name = "compound-combining",
-    group = "alchemical-romance-group"
+    group = "alchemical-romance-group",
+    order = "c"
 }
 
 local machineSubgroup = {
     type = "item-subgroup",
     name = "alchemical-machines",
-    group = "alchemical-romance-group"
+    group = "alchemical-romance-group",
+    order = "a"
 }
 
 data:extend({
