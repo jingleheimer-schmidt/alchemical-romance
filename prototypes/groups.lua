@@ -10,6 +10,16 @@ local combiningCategory = {
     name = "combining"
 }
 
+local condensingCategory = {
+    type = "recipe-category",
+    name = "condensing"
+}
+
+local developingCategory = {
+    type = "recipe-category",
+    name = "developing"
+}
+
 --== Item Groups and Subgroups ==--
 
 local alchemicalRomanceGroup = {
@@ -67,10 +77,26 @@ local machineSubgroup = {
     order = "a"
 }
 
+local emcSubgroup = {
+    type = "item-subgroup",
+    name = "emc-tokens",
+    group = "alchemical-romance-group",
+    order = "ab"
+}
+
+local condensingSubgroup = {
+    type = "item-subgroup",
+    name = "element-condensing",
+    group = "alchemical-romance-group",
+    order = "abc"
+}
+
 data:extend({
         --== Categories ==--
         dissolvingCategory,
         combiningCategory,
+        condensingCategory,
+        developingCategory,
         --== Groups & Subgroups ==--
         alchemicalRomanceGroup,
         elementSubgroup,
@@ -79,5 +105,7 @@ data:extend({
         compoundDissolvingSubgroup,
         itemCombiningSubgroup,
         compoundCombiningSubgroup,
-        machineSubgroup
+        machineSubgroup,
+        emcSubgroup,
+        condensingSubgroup
 })

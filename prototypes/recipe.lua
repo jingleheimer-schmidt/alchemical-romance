@@ -50,8 +50,8 @@ local ironOreDissolving = {
     },
     results = {
         {type="item", name="iron-element", probability=1, amount_min=10, amount_max=14},
-        {type="item", name="tungsten-element", amount_min=0, amount_max=4},
-        {type="item", name="sulfur-element", amount_min=0, amount_max=6}
+        {type="item", name="tungsten-element", probability=.75, amount_min=0, amount_max=4},
+        {type="item", name="sulfur-element", probability=.25, amount_min=0, amount_max=6}
     },
     category = "dissolving",
     energy_required = .25,
@@ -264,6 +264,40 @@ local rawFishCombining = {
     allow_decomposition = "false"
 }
 
+local ironPlateCombining = {
+    type = "recipe",
+    name = "iron-plate-combining",
+    icon = "__alchemical-romance__/graphics/recipes/iron-plate-combining.png",
+    icon_size = 64,
+    subgroup = "item-combining",
+    ingredients = {
+        {type="item", name="iron-element", amount=12}
+    },
+    results = {
+        {type="item", name="iron-plate", amount=1}
+    },
+    category = "combining",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local copperPlateCombining = {
+    type = "recipe",
+    name = "copper-plate-combining",
+    icon = "__alchemical-romance__/graphics/recipes/copper-plate-combining.png",
+    icon_size = 64,
+    subgroup = "item-combining",
+    ingredients = {
+        {type="item", name="copper-element", amount=12}
+    },
+    results = {
+        {type="item", name="copper-plate", amount=1}
+    },
+    category = "combining",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
 --== Combining Recipes ==--
     --== Compounds ==--
 
@@ -339,6 +373,188 @@ local proteinCombining = {
     energy_required = .25
 }
 
+--== EMC Token Recipes ==--
+
+local oneToTenEMC = {
+    type = "recipe",
+    name = "one-to-ten-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"one-emc",10}
+    },
+    energy_required = .25,
+    results = {
+        {"ten-emc",1}
+    },
+    order = "ba",
+    allow_decomposition = "false"
+}
+
+local oneToHundredEMC = {
+    type = "recipe",
+    name = "one-to-hundred-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"one-emc",100}
+    },
+    energy_required = .25,
+    results = {
+        {"hundred-emc",1}
+    },
+    order = "ca",
+    allow_decomposition = "false"
+}
+
+local oneToThousandEMC = {
+    type = "recipe",
+    name = "one-to-thousand-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"one-emc",1000}
+    },
+    energy_required = .25,
+    results = {
+        {"thousand-emc",1}
+    },
+    order = "da",
+    allow_decomposition = "false"
+}
+
+local tenToOneEMC = {
+    type = "recipe",
+    name = "ten-to-one-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"ten-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"one-emc",10}
+    },
+    order = "ab",
+    allow_decomposition = "false"
+}
+
+local tenToHundredEMC = {
+    type = "recipe",
+    name = "ten-to-hundred-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"ten-emc",10}
+    },
+    energy_required = .25,
+    results = {
+        {"hundred-emc",1}
+    },
+    order = "cb",
+    allow_decomposition = "false"
+}
+
+local tenToThousandEMC = {
+    type = "recipe",
+    name = "ten-to-thousand-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"ten-emc",100}
+    },
+    energy_required = .25,
+    results = {
+        {"thousand-emc",1}
+    },
+    order = "db",
+    allow_decomposition = "false"
+}
+
+local hundredToOneEMC = {
+    type = "recipe",
+    name = "hundred-to-one-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"hundred-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"one-emc",100}
+    },
+    order = "ac",
+    allow_decomposition = "false"
+}
+
+local hundredToTenEMC = {
+    type = "recipe",
+    name = "hundred-to-ten-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"hundred-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"ten-emc",10}
+    },
+    order = "bc",
+    allow_decomposition = "false"
+}
+
+local hundredToThousandEMC = {
+    type = "recipe",
+    name = "hundred-to-thousand-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"hundred-emc",10}
+    },
+    energy_required = .25,
+    results = {
+        {"thousand-emc",1}
+    },
+    order = "dc",
+    allow_decomposition = "false"
+}
+
+local thousandToOneEMC = {
+    type = "recipe",
+    name = "thousand-to-one-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"thousand-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"one-emc",1000}
+    },
+    order = "ad",
+    allow_decomposition = "false"
+}
+
+local thousandToTenEMC = {
+    type = "recipe",
+    name = "thousand-to-ten-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"thousand-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"ten-emc",100}
+    },
+    order = "bd",
+    allow_decomposition = "false"
+}
+
+local thousandToHundredEMC = {
+    type = "recipe",
+    name = "thousand-to-hundred-emc",
+    subgroup = "emc-tokens",
+    ingredients = {
+        {"thousand-emc",1}
+    },
+    energy_required = .25,
+    results = {
+        {"hundred-emc",10}
+    },
+    order = "cd",
+    allow_decomposition = "false"
+}
+
 --== Machine Recipes ==--
 
 local chemicalDissolver = {
@@ -369,6 +585,72 @@ local chemicalCombiner = {
     enabled = "true"
 }
 
+local energyCondenser = {
+    type = "recipe",
+    name = "energy-condenser",
+    subgroup = "alchemical-machines",
+    ingredients = {
+        {"iron-plate",10},
+        {"copper-plate",10},
+        {"electronic-circuit",5}
+    },
+    energy_required = 10,
+    result = "energy-condenser-item",
+    enabled = "true"
+}
+
+local energyDeveloper = {
+    type = "recipe",
+    name = "energy-developer",
+    subgroup = "alchemical-machines",
+    ingredients = {
+        {"iron-plate",10},
+        {"copper-plate",10},
+        {"electronic-circuit",5}
+    },
+    energy_required = 10,
+    result = "energy-developer-item",
+    enabled = "true"
+}
+
+--== EMC Condensing Recipes ==--
+
+local ironPlateCondensing = {
+    type = "recipe",
+    name = "iron-plate-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"iron-element",1}
+    },
+    results = {
+        {type="item", name="ten-emc", amount=3},
+        {type="item", name="one-emc", amount=2},
+    },
+    category = "condensing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
+local copperPlateCondensing = {
+    type = "recipe",
+    name = "copper-plate-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"copper-element",1}
+    },
+    results = {
+        {type="item", name="ten-emc", amount=3},
+        {type="item", name="one-emc", amount=2},
+    },
+    category = "condensing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
 --== Add Recipes Into Game ==--
 
 data:extend({
@@ -392,13 +674,33 @@ data:extend({
         ironOreCombining,
         copperOreCombining,
         rawFishCombining,
+        ironPlateCombining,
+        copperPlateCombining,
         --== Combining Recipes ==--
             --== Compounds ==--
         celluloseCombining,
         malachiteCombining,
         hydroxideCombining,
         proteinCombining,
+        --== EMC Token Recipes ==--
+        oneToTenEMC,
+        oneToHundredEMC,
+        oneToThousandEMC,
+        tenToOneEMC,
+        tenToHundredEMC,
+        tenToThousandEMC,
+        hundredToOneEMC,
+        hundredToTenEMC,
+        hundredToThousandEMC,
+        thousandToOneEMC,
+        thousandToTenEMC,
+        thousandToHundredEMC,
+        --== EMC Condensing Recipes ==--
+        ironPlateCondensing,
+        copperPlateCondensing,
         --== Machine Recipies ==--
         chemicalDissolver,
-        chemicalCombiner
+        chemicalCombiner,
+        energyCondenser,
+        energyDeveloper
     })

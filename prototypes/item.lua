@@ -119,6 +119,44 @@ local proteinCompound = {
     stack_size = 200
 }
 
+--== EMC Items ==--
+
+local oneEMC = {
+    type = "item",
+    name = "one-emc",
+    icon = "__alchemical-romance__/graphics/emc/one-emc.png",
+    icon_size = 64,
+    subgroup = "emc-tokens",
+    stack_size = 500
+}
+
+local tenEMC = {
+    type = "item",
+    name = "ten-emc",
+    icon = "__alchemical-romance__/graphics/emc/ten-emc.png",
+    icon_size = 64,
+    subgroup = "emc-tokens",
+    stack_size = 500
+}
+
+local hundredEMC = {
+    type = "item",
+    name = "hundred-emc",
+    icon = "__alchemical-romance__/graphics/emc/hundred-emc.png",
+    icon_size = 64,
+    subgroup = "emc-tokens",
+    stack_size = 500
+}
+
+local thousandEMC = {
+    type = "item",
+    name = "thousand-emc",
+    icon = "__alchemical-romance__/graphics/emc/thousand-emc.png",
+    icon_size = 64,
+    subgroup = "emc-tokens",
+    stack_size = 500
+}
+
 --== Machine Items ==--
 
 local chemicalDissolver = {
@@ -137,6 +175,26 @@ local chemicalCombiner = {
     icon = "__alchemical-romance__/graphics/machines/chemical-combiner.png",
     subgroup = "alchemical-machines",
     place_result = "chemical-combiner-entity",
+    icon_size = 64,
+    stack_size = 50
+}
+
+local energyCondenser = {
+    type = "item",
+    name = "energy-condenser-item",
+    icon = "__alchemical-romance__/graphics/machines/chemical-combiner.png",
+    subgroup = "alchemical-machines",
+    place_result = "energy-condenser-entity",
+    icon_size = 64,
+    stack_size = 50
+}
+
+local energyDeveloper = {
+    type = "item",
+    name = "energy-developer-item",
+    icon = "__alchemical-romance__/graphics/machines/chemical-combiner.png",
+    subgroup = "alchemical-machines",
+    place_result = "energy-developer-entity",
     icon_size = 64,
     stack_size = 50
 }
@@ -162,7 +220,15 @@ data:extend({
         hydroxideCompound,
         proteinCompound,
         
+        --== EMC ==--
+        oneEMC,
+        tenEMC,
+        hundredEMC,
+        thousandEMC,
+        
         --== Machines ==--
         chemicalDissolver,
-        chemicalCombiner
+        chemicalCombiner,
+        energyCondenser,
+        energyDeveloper
     })
