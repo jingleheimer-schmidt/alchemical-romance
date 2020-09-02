@@ -682,6 +682,24 @@ local oxygenElementCondensing = {
     allow_decomposition = "false"
 }
 
+local carbonElementCondensing = {
+    type = "recipe",
+    name = "carbon-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"carbon-element",1}
+    },
+    results = {
+        {type="item", name="ten-emc", amount=1},
+        {type="item", name="one-emc", amount=6}
+    },
+    category = "condensing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
 --== Add Recipes Into Game ==--
 
 data:extend({
@@ -730,6 +748,7 @@ data:extend({
         ironElementCondensing,
         copperElementCondensing,
         oxygenElementCondensing,
+        carbonElementCondensing,
         --== Machine Recipies ==--
         chemicalDissolver,
         chemicalCombiner,
