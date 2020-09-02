@@ -186,7 +186,9 @@ local coalCombining = {
     icon_size = 64,
     subgroup = "item-combining",
     ingredients = {
-        {"carbon-element",12}
+        {"carbon-element",12},
+        {"oxygen-element",1},
+        {"sulfur-element",1}
     },
     result = "coal",
     category = "combining",
@@ -212,39 +214,39 @@ local woodCombining = {
     allow_decomposition = "false"
 }
 
-local ironOreCombining = {
-    type = "recipe",
-    name = "iron-ore-combining",
-    icon = "__alchemical-romance__/graphics/recipes/iron-ore-combining.png",
-    icon_size = 64,
-    subgroup = "item-combining",
-    ingredients = {
-        {"iron-element",12}
-    },
-    results = {
-        {type="item", name="iron-ore", amount=1}
-    },
-    category = "combining",
-    energy_required = .25,
-    allow_decomposition = "false"
-}
+-- local ironOreCombining = {
+--     type = "recipe",
+--     name = "iron-ore-combining",
+--     icon = "__alchemical-romance__/graphics/recipes/iron-ore-combining.png",
+--     icon_size = 64,
+--     subgroup = "item-combining",
+--     ingredients = {
+--         {"iron-element",12}
+--     },
+--     results = {
+--         {type="item", name="iron-ore", amount=1}
+--     },
+--     category = "combining",
+--     energy_required = .25,
+--     allow_decomposition = "false"
+-- }
 
-local copperOreCombining = {
-    type = "recipe",
-    name = "copper-ore-combining",
-    icon = "__alchemical-romance__/graphics/recipes/copper-ore-combining.png",
-    icon_size = 64,
-    subgroup = "item-combining",
-    ingredients = {
-        {"copper-element",12}
-    },
-    results = {
-        {type="item", name="copper-ore", amount=1}
-    },
-    category = "combining",
-    energy_required = .25,
-    allow_decomposition = "false"
-}
+-- local copperOreCombining = {
+--     type = "recipe",
+--     name = "copper-ore-combining",
+--     icon = "__alchemical-romance__/graphics/recipes/copper-ore-combining.png",
+--     icon_size = 64,
+--     subgroup = "item-combining",
+--     ingredients = {
+--         {"copper-element",12}
+--     },
+--     results = {
+--         {type="item", name="copper-ore", amount=1}
+--     },
+--     category = "combining",
+--     energy_required = .25,
+--     allow_decomposition = "false"
+-- }
 
 local rawFishCombining = {
     type = "recipe",
@@ -671,8 +673,8 @@ data:extend({
             --== Items ==--
         coalCombining,
         woodCombining,
-        ironOreCombining,
-        copperOreCombining,
+        -- ironOreCombining,
+        -- copperOreCombining,
         rawFishCombining,
         ironPlateCombining,
         copperPlateCombining,
