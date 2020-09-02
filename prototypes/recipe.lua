@@ -389,7 +389,8 @@ local oneToTenEMC = {
         {"ten-emc",1}
     },
     order = "ba",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local oneToHundredEMC = {
@@ -404,7 +405,8 @@ local oneToHundredEMC = {
         {"hundred-emc",1}
     },
     order = "ca",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local oneToThousandEMC = {
@@ -419,7 +421,8 @@ local oneToThousandEMC = {
         {"thousand-emc",1}
     },
     order = "da",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local tenToOneEMC = {
@@ -434,7 +437,8 @@ local tenToOneEMC = {
         {"one-emc",10}
     },
     order = "ab",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local tenToHundredEMC = {
@@ -449,7 +453,8 @@ local tenToHundredEMC = {
         {"hundred-emc",1}
     },
     order = "cb",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local tenToThousandEMC = {
@@ -464,7 +469,8 @@ local tenToThousandEMC = {
         {"thousand-emc",1}
     },
     order = "db",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local hundredToOneEMC = {
@@ -479,7 +485,8 @@ local hundredToOneEMC = {
         {"one-emc",100}
     },
     order = "ac",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local hundredToTenEMC = {
@@ -494,7 +501,8 @@ local hundredToTenEMC = {
         {"ten-emc",10}
     },
     order = "bc",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local hundredToThousandEMC = {
@@ -509,7 +517,8 @@ local hundredToThousandEMC = {
         {"thousand-emc",1}
     },
     order = "dc",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local thousandToOneEMC = {
@@ -524,7 +533,8 @@ local thousandToOneEMC = {
         {"one-emc",1000}
     },
     order = "ad",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local thousandToTenEMC = {
@@ -539,7 +549,8 @@ local thousandToTenEMC = {
         {"ten-emc",100}
     },
     order = "bd",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 local thousandToHundredEMC = {
@@ -554,7 +565,8 @@ local thousandToHundredEMC = {
         {"hundred-emc",10}
     },
     order = "cd",
-    allow_decomposition = "false"
+    allow_decomposition = "false",
+    allow_intermediates = "false"
 }
 
 --== Machine Recipes ==--
