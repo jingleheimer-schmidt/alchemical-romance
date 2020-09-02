@@ -25,7 +25,7 @@ local developingCategory = {
 local alchemicalRomanceGroup = {
     type = "item-group",
     name = "alchemical-romance-group",
-    icon = "__alchemical-romance__/graphics/elements/element_barium.png",
+    icon = "__alchemical-romance__/graphics/recipe-group/alchemical-romance-group-icon.png",
     icon_size = 32,
     order = "z"
 }
