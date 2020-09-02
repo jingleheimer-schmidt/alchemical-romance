@@ -629,9 +629,9 @@ local energyDeveloper = {
 
 --== EMC Condensing Recipes ==--
 
-local ironPlateCondensing = {
+local ironElementCondensing = {
     type = "recipe",
-    name = "iron-plate-condensing",
+    name = "iron-element-condensing",
     icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
     icon_size = 128,
     subgroup = "element-condensing",
@@ -647,9 +647,9 @@ local ironPlateCondensing = {
     allow_decomposition = "false"
 }
 
-local copperPlateCondensing = {
+local copperElementCondensing = {
     type = "recipe",
-    name = "copper-plate-condensing",
+    name = "copper-element-condensing",
     icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
     icon_size = 128,
     subgroup = "element-condensing",
@@ -659,6 +659,23 @@ local copperPlateCondensing = {
     results = {
         {type="item", name="ten-emc", amount=3},
         {type="item", name="one-emc", amount=2},
+    },
+    category = "condensing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
+local oxygenElementCondensing = {
+    type = "recipe",
+    name = "oxygen-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"oxygen-element",1}
+    },
+    results = {
+        {type="item", name="one-emc", amount=8}
     },
     category = "condensing",
     energy_required = .75,
@@ -710,8 +727,9 @@ data:extend({
         thousandToTenEMC,
         thousandToHundredEMC,
         --== EMC Condensing Recipes ==--
-        ironPlateCondensing,
-        copperPlateCondensing,
+        ironElementCondensing,
+        copperElementCondensing,
+        oxygenElementCondensing,
         --== Machine Recipies ==--
         chemicalDissolver,
         chemicalCombiner,
