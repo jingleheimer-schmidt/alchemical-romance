@@ -303,7 +303,7 @@ local energyCondenser = {
     minable = {mining_time = 0.5, result = "energy-condenser-item"},
     crafting_categories = {"condensing"},
     crafting_speed = 1,
-    result_inventory_size = "4",
+    result_inventory_size = "1",
     source_inventory_size = "1",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
