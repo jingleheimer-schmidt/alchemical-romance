@@ -509,7 +509,7 @@ local ironElementDeveloping = {
     type = "recipe",
     name = "iron-element-developing",
     icon = "__alchemical-romance__/graphics/elements/element_iron.png",
-    icon_size = 128,
+    icon_size = 32,
     subgroup = "element-developing",
     ingredients = {
         {type="fluid", name="emc", amount=32}
@@ -526,7 +526,7 @@ local copperElementDeveloping = {
     type = "recipe",
     name = "copper-element-developing",
     icon = "__alchemical-romance__/graphics/elements/element_copper.png",
-    icon_size = 128,
+    icon_size = 32,
     subgroup = "element-developing",
     ingredients = {
         {type="fluid", name="emc", amount=32}
@@ -543,7 +543,7 @@ local oxygenElementDeveloping = {
     type = "recipe",
     name = "oxygen-element-developing",
     icon = "__alchemical-romance__/graphics/elements/element_oxygen.png",
-    icon_size = 128,
+    icon_size = 32,
     subgroup = "element-developing",
     ingredients = {
         {type="fluid", name="emc", amount=8}
@@ -560,7 +560,7 @@ local carbonElementDeveloping = {
     type = "recipe",
     name = "carbon-element-developing",
     icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
-    icon_size = 128,
+    icon_size = 32,
     subgroup = "element-developing",
     ingredients = {
         {type="fluid", name="emc", amount=16}
