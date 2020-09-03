@@ -375,8 +375,6 @@ local proteinCombining = {
     energy_required = .25
 }
 
---== EMC Token Recipes ==--
-
 --== Machine Recipes ==--
 
 local chemicalDissolver = {
@@ -505,6 +503,76 @@ local carbonElementCondensing = {
     allow_decomposition = "false"
 }
 
+--== EMC Developing Recipes ==--
+
+local ironElementDeveloping = {
+    type = "recipe",
+    name = "iron-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_iron.png",
+    icon_size = 128,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=32}
+    },
+    results = {
+        {"iron-element",1}
+    },
+    category = "developing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
+local copperElementDeveloping = {
+    type = "recipe",
+    name = "copper-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_copper.png",
+    icon_size = 128,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=32}
+    },
+    results = {
+        {"copper-element",1}
+    },
+    category = "developing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
+local oxygenElementDeveloping = {
+    type = "recipe",
+    name = "oxygen-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_oxygen.png",
+    icon_size = 128,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=8}
+    },
+    results = {
+        {"oxygen-element",1}
+    },
+    category = "developing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
+local carbonElementDeveloping = {
+    type = "recipe",
+    name = "carbon-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 128,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=16}
+    },
+    results = {
+        {"carbon-element",1}
+    },
+    category = "developing",
+    energy_required = .75,
+    allow_decomposition = "false"
+}
+
 --== Add Recipes Into Game ==--
 
 data:extend({
@@ -542,6 +610,11 @@ data:extend({
         copperElementCondensing,
         oxygenElementCondensing,
         carbonElementCondensing,
+        --== EMC Developing Recipes ==--
+        ironElementDeveloping,
+        copperElementDeveloping,
+        oxygenElementDeveloping,
+        carbonElementDeveloping,
         --== Machine Recipies ==--
         chemicalDissolver,
         chemicalCombiner,
