@@ -211,22 +211,22 @@ local chemicalCombiner = {
      },
      off_when_no_fluid_recipe = true
    },
-   open_sound = sounds.machine_open,
-   close_sound = sounds.machine_close,
-   vehicle_impact_sound = sounds.generic_impact,
-    working_sound =
-    {
-      sound =
-      {
-        {
-          filename = "__base__/sound/assembling-machine-t3-1.ogg",
-          volume = 0.45
-        },
-      },
-      audible_distance_modifier = 0.5,
-      fade_in_ticks = 4,
-      fade_out_ticks = 20
-    },
+   -- open_sound = "sounds.machine_open",
+   -- close_sound = "sounds.machine_close",
+   -- vehicle_impact_sound = "sounds.generic_impact",
+   --  working_sound =
+   --  {
+   --    sound =
+   --    {
+   --      {
+   --        filename = "__base__/sound/assembling-machine-t3-1.ogg",
+   --        volume = 0.45
+   --      },
+   --    },
+   --    audible_distance_modifier = 0.5,
+   --    fade_in_ticks = 4,
+   --    fade_out_ticks = 20
+   --  },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box = {{-1.5, -1.7}, {1.5, 1.5}},
@@ -493,22 +493,22 @@ local energyDeveloper = {
      },
      off_when_no_fluid_recipe = true
    },
-   open_sound = sounds.machine_open,
-   close_sound = sounds.machine_close,
-   vehicle_impact_sound = sounds.generic_impact,
-    working_sound =
-    {
-      sound =
-      {
-        {
-          filename = "__base__/sound/assembling-machine-t3-1.ogg",
-          volume = 0.45
-        },
-      },
-      audible_distance_modifier = 0.5,
-      fade_in_ticks = 4,
-      fade_out_ticks = 20
-    },
+   -- open_sound = "sounds.machine_open",
+   -- close_sound = "sounds.machine_close",
+   -- vehicle_impact_sound = "sounds.generic_impact",
+   --  working_sound =
+   --  {
+   --    sound =
+   --    {
+   --      {
+   --        filename = "__base__/sound/assembling-machine-t3-1.ogg",
+   --        volume = 0.45
+   --      },
+   --    },
+   --    audible_distance_modifier = 0.5,
+   --    fade_in_ticks = 4,
+   --    fade_out_ticks = 20
+   --  },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box = {{-1.5, -1.7}, {1.5, 1.5}},
