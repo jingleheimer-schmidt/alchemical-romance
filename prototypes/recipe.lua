@@ -447,8 +447,7 @@ local ironElementCondensing = {
         {"iron-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=3},
-        {type="item", name="one-emc", amount=2},
+        {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
     energy_required = .75,
@@ -465,8 +464,7 @@ local copperElementCondensing = {
         {"copper-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=3},
-        {type="item", name="one-emc", amount=2},
+        {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
     energy_required = .75,
@@ -483,7 +481,7 @@ local oxygenElementCondensing = {
         {"oxygen-element",1}
     },
     results = {
-        {type="item", name="one-emc", amount=8}
+        {type="fluid", name="emc", amount=8}
     },
     category = "condensing",
     energy_required = .75,
@@ -500,8 +498,7 @@ local carbonElementCondensing = {
         {"carbon-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=1},
-        {type="item", name="one-emc", amount=6}
+        {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
     energy_required = .75,
