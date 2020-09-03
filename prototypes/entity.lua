@@ -309,15 +309,15 @@ local energyCondenser = {
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_boxes =
     {
-      {
-        production_type = "input",
-        pipe_picture = assembler3pipepictures(),
-        pipe_covers = pipecoverspictures(),
-        base_area = 10,
-        base_level = -1,
-        pipe_connections = {{ type="input", position = {0, -2} }},
-        secondary_draw_orders = { north = -1 }
-      },
+      -- {
+      --   production_type = "input",
+      --   pipe_picture = assembler3pipepictures(),
+      --   pipe_covers = pipecoverspictures(),
+      --   base_area = 10,
+      --   base_level = -1,
+      --   pipe_connections = {{ type="input", position = {0, -2} }},
+      --   secondary_draw_orders = { north = -1 }
+      -- },
       {
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
