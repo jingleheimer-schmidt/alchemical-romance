@@ -448,7 +448,7 @@ local ironElementCondensing = {
         {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -465,7 +465,7 @@ local copperElementCondensing = {
         {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -482,7 +482,7 @@ local oxygenElementCondensing = {
         {type="fluid", name="emc", amount=8}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -499,7 +499,7 @@ local carbonElementCondensing = {
         {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -518,7 +518,7 @@ local ironElementDeveloping = {
         {"iron-element",1}
     },
     category = "developing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -535,7 +535,7 @@ local copperElementDeveloping = {
         {"copper-element",1}
     },
     category = "developing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -552,7 +552,7 @@ local oxygenElementDeveloping = {
         {"oxygen-element",1}
     },
     category = "developing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -569,7 +569,7 @@ local carbonElementDeveloping = {
         {"carbon-element",1}
     },
     category = "developing",
-    energy_required = .75,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
