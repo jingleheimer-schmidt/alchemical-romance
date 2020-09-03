@@ -91,6 +91,13 @@ local condensingSubgroup = {
     order = "abc"
 }
 
+local developingSubgroup = {
+  type = "item-subgroup",
+  name = "element-developing",
+  group = "alchemical-romance-group",
+  order = "abd"
+}
+
 data:extend({
         --== Categories ==--
         dissolvingCategory,
@@ -107,5 +114,6 @@ data:extend({
         compoundCombiningSubgroup,
         machineSubgroup,
         emcSubgroup,
-        condensingSubgroup
+        condensingSubgroup,
+        developingSubgroup
 })
