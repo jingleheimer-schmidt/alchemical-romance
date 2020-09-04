@@ -375,212 +375,6 @@ local proteinCombining = {
     energy_required = .25
 }
 
---== EMC Token Recipes ==--
-
-local oneToTenEMC = {
-    type = "recipe",
-    name = "one-to-ten-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"one-emc",10}
-    },
-    energy_required = .25,
-    results = {
-        {"ten-emc",1}
-    },
-    order = "ba",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local oneToHundredEMC = {
-    type = "recipe",
-    name = "one-to-hundred-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"one-emc",100}
-    },
-    energy_required = .25,
-    results = {
-        {"hundred-emc",1}
-    },
-    order = "ca",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local oneToThousandEMC = {
-    type = "recipe",
-    name = "one-to-thousand-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"one-emc",1000}
-    },
-    energy_required = .25,
-    results = {
-        {"thousand-emc",1}
-    },
-    order = "da",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local tenToOneEMC = {
-    type = "recipe",
-    name = "ten-to-one-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"ten-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"one-emc",10}
-    },
-    order = "ab",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local tenToHundredEMC = {
-    type = "recipe",
-    name = "ten-to-hundred-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"ten-emc",10}
-    },
-    energy_required = .25,
-    results = {
-        {"hundred-emc",1}
-    },
-    order = "cb",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local tenToThousandEMC = {
-    type = "recipe",
-    name = "ten-to-thousand-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"ten-emc",100}
-    },
-    energy_required = .25,
-    results = {
-        {"thousand-emc",1}
-    },
-    order = "db",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local hundredToOneEMC = {
-    type = "recipe",
-    name = "hundred-to-one-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"hundred-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"one-emc",100}
-    },
-    order = "ac",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local hundredToTenEMC = {
-    type = "recipe",
-    name = "hundred-to-ten-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"hundred-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"ten-emc",10}
-    },
-    order = "bc",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local hundredToThousandEMC = {
-    type = "recipe",
-    name = "hundred-to-thousand-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"hundred-emc",10}
-    },
-    energy_required = .25,
-    results = {
-        {"thousand-emc",1}
-    },
-    order = "dc",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local thousandToOneEMC = {
-    type = "recipe",
-    name = "thousand-to-one-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"thousand-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"one-emc",1000}
-    },
-    order = "ad",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local thousandToTenEMC = {
-    type = "recipe",
-    name = "thousand-to-ten-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"thousand-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"ten-emc",100}
-    },
-    order = "bd",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
-local thousandToHundredEMC = {
-    type = "recipe",
-    name = "thousand-to-hundred-emc",
-    subgroup = "emc-tokens",
-    ingredients = {
-        {"thousand-emc",1}
-    },
-    energy_required = .25,
-    results = {
-        {"hundred-emc",10}
-    },
-    order = "cd",
-    allow_decomposition = "false",
-    allow_intermediates = "false",
-    allow_as_intermediate = "false"
-}
-
 --== Machine Recipes ==--
 
 local chemicalDissolver = {
@@ -651,11 +445,10 @@ local ironElementCondensing = {
         {"iron-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=3},
-        {type="item", name="one-emc", amount=2},
+        {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .25,
     allow_decomposition = "false"
 }
 
@@ -669,11 +462,10 @@ local copperElementCondensing = {
         {"copper-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=3},
-        {type="item", name="one-emc", amount=2},
+        {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .25,
     allow_decomposition = "false"
 }
 
@@ -687,10 +479,10 @@ local oxygenElementCondensing = {
         {"oxygen-element",1}
     },
     results = {
-        {type="item", name="one-emc", amount=8}
+        {type="fluid", name="emc", amount=8}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .25,
     allow_decomposition = "false"
 }
 
@@ -704,11 +496,80 @@ local carbonElementCondensing = {
         {"carbon-element",1}
     },
     results = {
-        {type="item", name="ten-emc", amount=1},
-        {type="item", name="one-emc", amount=6}
+        {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
-    energy_required = .75,
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+--== EMC Developing Recipes ==--
+
+local ironElementDeveloping = {
+    type = "recipe",
+    name = "iron-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_iron.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=32}
+    },
+    results = {
+        {"iron-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local copperElementDeveloping = {
+    type = "recipe",
+    name = "copper-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_copper.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=32}
+    },
+    results = {
+        {"copper-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local oxygenElementDeveloping = {
+    type = "recipe",
+    name = "oxygen-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_oxygen.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=8}
+    },
+    results = {
+        {"oxygen-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local carbonElementDeveloping = {
+    type = "recipe",
+    name = "carbon-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=16}
+    },
+    results = {
+        {"carbon-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
     allow_decomposition = "false"
 }
 
@@ -744,23 +605,16 @@ data:extend({
         hydroxideCombining,
         proteinCombining,
         --== EMC Token Recipes ==--
-        oneToTenEMC,
-        oneToHundredEMC,
-        oneToThousandEMC,
-        tenToOneEMC,
-        tenToHundredEMC,
-        tenToThousandEMC,
-        hundredToOneEMC,
-        hundredToTenEMC,
-        hundredToThousandEMC,
-        thousandToOneEMC,
-        thousandToTenEMC,
-        thousandToHundredEMC,
         --== EMC Condensing Recipes ==--
         ironElementCondensing,
         copperElementCondensing,
         oxygenElementCondensing,
         carbonElementCondensing,
+        --== EMC Developing Recipes ==--
+        ironElementDeveloping,
+        copperElementDeveloping,
+        oxygenElementDeveloping,
+        carbonElementDeveloping,
         --== Machine Recipies ==--
         chemicalDissolver,
         chemicalCombiner,

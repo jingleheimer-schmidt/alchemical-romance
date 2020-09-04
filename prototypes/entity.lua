@@ -297,16 +297,38 @@ local energyCondenser = {
     max_health = 200,
     overload_multiplyer = 100,
     module_specification = {
-        module_slots = 0
+        module_slots = 2
     },
     allowed_effects = {"speed", "consumption", "pollution"},
     minable = {mining_time = 0.5, result = "energy-condenser-item"},
     crafting_categories = {"condensing"},
     crafting_speed = 1,
-    result_inventory_size = "4",
+    result_inventory_size = "1",
     source_inventory_size = "1",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    fluid_boxes =
+    {
+      -- {
+      --   production_type = "input",
+      --   pipe_picture = assembler3pipepictures(),
+      --   pipe_covers = pipecoverspictures(),
+      --   base_area = 10,
+      --   base_level = -1,
+      --   pipe_connections = {{ type="input", position = {0, -2} }},
+      --   secondary_draw_orders = { north = -1 }
+      -- },
+      {
+        production_type = "output",
+        pipe_picture = assembler3pipepictures(),
+        pipe_covers = pipecoverspictures(),
+        base_area = 10,
+        base_level = 1,
+        pipe_connections = {{ type="output", position = {0, 2} }},
+        secondary_draw_orders = { north = -1 }
+      },
+      off_when_no_fluid_recipe = true
+    },
     working_sound = {
       sound = {
         filename = "__base__/sound/electric-furnace.ogg",
@@ -461,7 +483,7 @@ local energyDeveloper = {
     energy_usage = "375kW",
     module_specification =
     {
-      module_slots = 4
+      module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "pollution"},
     resistances =

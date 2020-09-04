@@ -121,42 +121,6 @@ local proteinCompound = {
 
 --== EMC Items ==--
 
-local oneEMC = {
-    type = "item",
-    name = "one-emc",
-    icon = "__alchemical-romance__/graphics/emc/one-emc.png",
-    icon_size = 64,
-    subgroup = "emc-tokens",
-    stack_size = 500
-}
-
-local tenEMC = {
-    type = "item",
-    name = "ten-emc",
-    icon = "__alchemical-romance__/graphics/emc/ten-emc.png",
-    icon_size = 64,
-    subgroup = "emc-tokens",
-    stack_size = 500
-}
-
-local hundredEMC = {
-    type = "item",
-    name = "hundred-emc",
-    icon = "__alchemical-romance__/graphics/emc/hundred-emc.png",
-    icon_size = 64,
-    subgroup = "emc-tokens",
-    stack_size = 500
-}
-
-local thousandEMC = {
-    type = "item",
-    name = "thousand-emc",
-    icon = "__alchemical-romance__/graphics/emc/thousand-emc.png",
-    icon_size = 64,
-    subgroup = "emc-tokens",
-    stack_size = 500
-}
-
 --== Machine Items ==--
 
 local chemicalDissolver = {
@@ -202,7 +166,7 @@ local energyDeveloper = {
 --== Add Items Into Game ==--
 
 data:extend({
-        
+
         --== Elements ==--
         carbonElement,
         oxygenElement,
@@ -213,19 +177,15 @@ data:extend({
         copperElement,
         nitrogenElement,
         seleniumElement,
-        
+
         --== Compounds ==--
         celluloseCompound,
         malachiteCompound,
         hydroxideCompound,
         proteinCompound,
-        
+
         --== EMC ==--
-        oneEMC,
-        tenEMC,
-        hundredEMC,
-        thousandEMC,
-        
+
         --== Machines ==--
         chemicalDissolver,
         chemicalCombiner,
