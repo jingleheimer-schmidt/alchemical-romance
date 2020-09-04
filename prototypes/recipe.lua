@@ -658,6 +658,91 @@ local carbonElementDeveloping = {
     allow_decomposition = "false"
 }
 
+local sulfurElementDeveloping = {
+    type = "recipe",
+    name = "sulfur-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=16}
+    },
+    results = {
+        {"sulfur-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local hydrogenElementDeveloping = {
+    type = "recipe",
+    name = "hydrogen-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=1}
+    },
+    results = {
+        {"hydrogen-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local tungstenElementDeveloping = {
+    type = "recipe",
+    name = "tungsten-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=128}
+    },
+    results = {
+        {"tungsten-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local nitrogenElementDeveloping = {
+    type = "recipe",
+    name = "nitrogen-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=16}
+    },
+    results = {
+        {"nitrogen-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local seleniumElementDeveloping = {
+    type = "recipe",
+    name = "selenium-element-developing",
+    icon = "__alchemical-romance__/graphics/elements/element_carbon.png",
+    icon_size = 32,
+    subgroup = "element-developing",
+    ingredients = {
+        {type="fluid", name="emc", amount=128}
+    },
+    results = {
+        {"selenium-element",1}
+    },
+    category = "developing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
 --== Add Recipes Into Game ==--
 
 data:extend({
@@ -705,6 +790,11 @@ data:extend({
         copperElementDeveloping,
         oxygenElementDeveloping,
         carbonElementDeveloping,
+        sulfurElementDeveloping,
+        hydrogenElementDeveloping,
+        tungstenElementDeveloping,
+        nitrogenElementDeveloping,
+        seleniumElementDeveloping,
         --== Machine Recipies ==--
         chemicalDissolver,
         chemicalCombiner,
