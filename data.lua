@@ -1,5 +1,6 @@
 require("prototypes.entity")
 require("prototypes.recipe")
+require("prototypes.recipe.emc-condensing")
 require("prototypes.groups")
 require("prototypes.item")
 require("prototypes.fluid")
