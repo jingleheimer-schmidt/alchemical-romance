@@ -179,7 +179,7 @@ local chemicalCombiner = {
     energy_usage = "375kW",
     module_specification =
     {
-      module_slots = 4
+      module_slots = 0
     },
     allowed_effects = {"consumption", "speed", "pollution"},
     resistances =
@@ -297,7 +297,7 @@ local energyCondenser = {
     max_health = 200,
     overload_multiplyer = 100,
     module_specification = {
-        module_slots = 2
+        module_slots = 0
     },
     allowed_effects = {"speed", "consumption", "pollution"},
     minable = {mining_time = 0.5, result = "energy-condenser-item"},
@@ -483,7 +483,7 @@ local energyDeveloper = {
     energy_usage = "375kW",
     module_specification =
     {
-      module_slots = 2
+      module_slots = 0
     },
     allowed_effects = {"consumption", "speed", "pollution"},
     resistances =
