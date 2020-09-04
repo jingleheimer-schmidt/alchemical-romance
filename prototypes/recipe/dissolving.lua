@@ -16,7 +16,7 @@ local coalDissolving = {
         {type="item", name="sulfur-element", probability=0.2, amount=2}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -35,7 +35,7 @@ local woodDissolving = {
         {type="item", name="oxygen-element", probability=0.2, amount=2}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -54,7 +54,7 @@ local ironOreDissolving = {
         {type="item", name="sulfur-element", probability=.25, amount_min=0, amount_max=6}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -72,7 +72,7 @@ local copperOreDissolving = {
         {type="item", name="malachite-compound", probability=.1, amount_min=1, amount_max=3},
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -90,7 +90,7 @@ local rawFishDissolving = {
         {type="item", name="selenium-element", amount=2},
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -113,7 +113,7 @@ local celluloseDissolving = {
         {type="item", name="oxygen-element", amount=5}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -133,7 +133,7 @@ local malachiteDissolving = {
         {type="item", name="hydroxide-compound", amount=2}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -154,7 +154,7 @@ local proteinDissolving = {
         {type="item", name="sulfur-element", amount=1}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -172,7 +172,7 @@ local hydroxideDissolving = {
         {"hydrogen-element",1}
     },
     category = "dissolving",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
