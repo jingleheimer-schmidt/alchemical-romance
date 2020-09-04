@@ -503,6 +503,91 @@ local carbonElementCondensing = {
     allow_decomposition = "false"
 }
 
+local sulfurElementCondensing = {
+    type = "recipe",
+    name = "sulfur-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"sulfur-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=16}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local hydrogenElementCondensing = {
+    type = "recipe",
+    name = "hydrogen-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"hydrogen-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=1}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local tungstenElementCondensing = {
+    type = "recipe",
+    name = "tungsten-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"tungsten-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=128}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local nitrogenElementCondensing = {
+    type = "recipe",
+    name = "nitrogen-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"tungsten-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=16}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local seleniumElementCondensing = {
+    type = "recipe",
+    name = "selenium-element-condensing",
+    icon = "__alchemical-romance__/graphics/recipes/raw-fish-dissolving.png",
+    icon_size = 128,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"selenium-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=128}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
 --== EMC Developing Recipes ==--
 
 local ironElementDeveloping = {
@@ -610,6 +695,11 @@ data:extend({
         copperElementCondensing,
         oxygenElementCondensing,
         carbonElementCondensing,
+        sulfurElementCondensing,
+        hydrogenElementCondensing,
+        tungstenElementCondensing,
+        nitrogenElementCondensing,
+        seleniumElementCondensing,
         --== EMC Developing Recipes ==--
         ironElementDeveloping,
         copperElementDeveloping,
