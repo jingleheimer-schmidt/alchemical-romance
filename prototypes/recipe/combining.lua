@@ -14,7 +14,7 @@ local coalCombining = {
     },
     result = "coal",
     category = "combining",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -32,7 +32,7 @@ local woodCombining = {
         {type="item", name="wood", amount=1}
     },
     category = "combining",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -49,7 +49,7 @@ local woodCombining = {
 --         {type="item", name="iron-ore", amount=1}
 --     },
 --     category = "combining",
---     energy_required = .25,
+--     energy_required = 1,
 --     allow_decomposition = "false"
 -- }
 
@@ -66,7 +66,7 @@ local woodCombining = {
 --         {type="item", name="copper-ore", amount=1}
 --     },
 --     category = "combining",
---     energy_required = .25,
+--     energy_required = 1,
 --     allow_decomposition = "false"
 -- }
 
@@ -84,7 +84,7 @@ local rawFishCombining = {
         {type="item", name="raw-fish", amount=1}
     },
     category = "combining",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -101,7 +101,7 @@ local ironPlateCombining = {
         {type="item", name="iron-plate", amount=1}
     },
     category = "combining",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -118,7 +118,7 @@ local copperPlateCombining = {
         {type="item", name="copper-plate", amount=1}
     },
     category = "combining",
-    energy_required = .25,
+    energy_required = 1,
     allow_decomposition = "false"
 }
 
@@ -138,7 +138,7 @@ local celluloseCombining = {
     },
     result = "cellulose-compound",
     category = "combining",
-    energy_required = .25
+    energy_required = 1
 }
 
 local malachiteCombining = {
@@ -157,7 +157,7 @@ local malachiteCombining = {
         {type="item", name="malachite-compound", amount=1}
     },
     category = "combining",
-    energy_required = .25
+    energy_required = 1
 }
 
 local hydroxideCombining = {
@@ -174,7 +174,7 @@ local hydroxideCombining = {
         {type="item", name="hydroxide-compound", amount=1}
     },
     category = "combining",
-    energy_required = .25
+    energy_required = 1
 }
 
 local proteinCombining = {
@@ -194,7 +194,7 @@ local proteinCombining = {
         {type="item", name="protein-compound", amount=1}
     },
     category = "combining",
-    energy_required = .25
+    energy_required = 1
 }
 
 data:extend({
