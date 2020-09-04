@@ -759,21 +759,21 @@ data:extend({
         -- malachiteDissolving,
         -- hydroxideDissolving,
         -- proteinDissolving,
-        --== Combining Recipes ==--
-            --== Items ==--
-        coalCombining,
-        woodCombining,
-        -- ironOreCombining,
-        -- copperOreCombining,
-        rawFishCombining,
-        ironPlateCombining,
-        copperPlateCombining,
-        --== Combining Recipes ==--
-            --== Compounds ==--
-        celluloseCombining,
-        malachiteCombining,
-        hydroxideCombining,
-        proteinCombining,
+        -- --== Combining Recipes ==--
+        --     --== Items ==--
+        -- coalCombining,
+        -- woodCombining,
+        -- -- ironOreCombining,
+        -- -- copperOreCombining,
+        -- rawFishCombining,
+        -- ironPlateCombining,
+        -- copperPlateCombining,
+        -- --== Combining Recipes ==--
+        --     --== Compounds ==--
+        -- celluloseCombining,
+        -- malachiteCombining,
+        -- hydroxideCombining,
+        -- proteinCombining,
         --== EMC Token Recipes ==--
         -- --== EMC Condensing Recipes ==--
         -- ironElementCondensing,

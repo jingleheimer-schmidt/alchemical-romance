@@ -1,5 +1,5 @@
 require("prototypes.entity")
-require("prototypes.recipe")
+require("prototypes.recipe.machine")
 require("prototypes.recipe.emc-condensing")
 require("prototypes.recipe.emc-developing")
 require("prototypes.recipe.dissolving")
