@@ -153,6 +153,91 @@ local seleniumElementCondensing = {
     allow_decomposition = "false"
 }
 
+local goldElementCondensing = {
+    type = "recipe",
+    name = "gold-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_gold.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"gold-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=256}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local dysprosiumElementCondensing = {
+    type = "recipe",
+    name = "dysprosium-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_dysprosium.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"dysprosium-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=512}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local zirconiumElementCondensing = {
+    type = "recipe",
+    name = "zirconium-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_zirconium.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"zirconium-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=256}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local nickelElementCondensing = {
+    type = "recipe",
+    name = "nickel-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_nickel.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"nickel-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=32}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
+local galliumElementCondensing = {
+    type = "recipe",
+    name = "gallium-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_gallium.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"gallium-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=64}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
 data:extend({
   --== EMC Condensing Recipes ==--
   ironElementCondensing,
@@ -163,5 +248,10 @@ data:extend({
   hydrogenElementCondensing,
   tungstenElementCondensing,
   nitrogenElementCondensing,
-  seleniumElementCondensing
+  seleniumElementCondensing,
+  goldElementCondensing,
+  dysprosiumElementCondensing,
+  zirconiumElementCondensing,
+  nickelElementCondensing,
+  galliumElementCondensing
 })
