@@ -238,6 +238,23 @@ local galliumElementCondensing = {
     allow_decomposition = "false"
 }
 
+local siliconElementCondensing = {
+    type = "recipe",
+    name = "silicon-element-condensing",
+    icon = "__alchemical-romance__/graphics/emc/condensing/element_condensing_silicon.png",
+    icon_size = 32,
+    subgroup = "element-condensing",
+    ingredients = {
+        {"silicon-element",1}
+    },
+    results = {
+        {type="fluid", name="emc", amount=8}
+    },
+    category = "condensing",
+    energy_required = .25,
+    allow_decomposition = "false"
+}
+
 data:extend({
   --== EMC Condensing Recipes ==--
   ironElementCondensing,
@@ -253,5 +270,6 @@ data:extend({
   dysprosiumElementCondensing,
   zirconiumElementCondensing,
   nickelElementCondensing,
-  galliumElementCondensing
+  galliumElementCondensing,
+  siliconElementCondensing
 })
