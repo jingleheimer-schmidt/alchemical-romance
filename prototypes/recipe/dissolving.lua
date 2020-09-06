@@ -104,7 +104,7 @@ local stoneDissolving = {
         {"stone",1}
     },
     results = {
-        {type="item", name="silicon-dioxide-compound", amount=1, probability=.4},
+        {type="item", name="silicon-dioxide-compound", amount_min=0, amount_max=4},
         {type="item", name="iron-element", amount=1, probability=.08},
         {type="item", name="gold-element", amount=1, probability=.03},
         {type="item", name="zirconium-element", amount=1, probability=.025},
