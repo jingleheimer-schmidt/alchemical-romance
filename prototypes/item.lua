@@ -126,6 +126,15 @@ local galliumElement = {
     stack_size = 200
 }
 
+local siliconElement = {
+    type = "item",
+    name = "silicon-element",
+    icon = "__alchemical-romance__/graphics/elements/element_silicon.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
 --== Compound Items ==--
 
 local celluloseCompound = {
@@ -234,6 +243,7 @@ data:extend({
         zirconiumElement,
         nickelElement,
         galliumElement,
+        siliconElement,
 
         --== Compounds ==--
         celluloseCompound,
