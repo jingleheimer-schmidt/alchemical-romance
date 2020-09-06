@@ -164,7 +164,14 @@ local proteinCompound = {
     stack_size = 200
 }
 
---== EMC Items ==--
+local siliconDioxideCompound = {
+    type = "item",
+    name = "silicon-dioxide-compound",
+    icon = "__alchemical-romance__/graphics/compounds/silicon-dioxide-protein.png",
+    icon_size = 128,
+    subgroup = "compounds",
+    stack_size = 200
+}
 
 --== Machine Items ==--
 
@@ -233,6 +240,7 @@ data:extend({
         malachiteCompound,
         hydroxideCompound,
         proteinCompound,
+        siliconDioxideCompound,
 
         --== EMC ==--
 
