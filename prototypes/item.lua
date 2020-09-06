@@ -81,6 +81,51 @@ local seleniumElement = {
     stack_size = 200
 }
 
+local goldElement = {
+    type = "item",
+    name = "gold-element",
+    icon = "__alchemical-romance__/graphics/elements/element_gold.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
+local dysprosiumElement = {
+    type = "item",
+    name = "dysprosium-element",
+    icon = "__alchemical-romance__/graphics/elements/element_dysprosium.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
+local zirconiumElement = {
+    type = "item",
+    name = "zirconium-element",
+    icon = "__alchemical-romance__/graphics/elements/element_zirconium.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
+local nickelElement = {
+    type = "item",
+    name = "nickel-element",
+    icon = "__alchemical-romance__/graphics/elements/element_nickel.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
+local galliumElement = {
+    type = "item",
+    name = "gallium-element",
+    icon = "__alchemical-romance__/graphics/elements/element_gallium.png",
+    icon_size = 32,
+    subgroup = "elements",
+    stack_size = 200
+}
+
 --== Compound Items ==--
 
 local celluloseCompound = {
@@ -177,6 +222,11 @@ data:extend({
         copperElement,
         nitrogenElement,
         seleniumElement,
+        goldElement,
+        dysprosiumElement,
+        zirconiumElement,
+        nickelElement,
+        galliumElement,
 
         --== Compounds ==--
         celluloseCompound,
