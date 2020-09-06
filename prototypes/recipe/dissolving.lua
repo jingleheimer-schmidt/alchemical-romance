@@ -94,6 +94,29 @@ local rawFishDissolving = {
     allow_decomposition = "false"
 }
 
+local stoneDissolving = {
+    type = "recipe",
+    name = "stone-dissolving",
+    icon = "__alchemical-romance__/graphics/recipes/stone-dissolving.png",
+    icon_size = 128,
+    subgroup = "item-dissolving",
+    ingredients = {
+        {"stone",1}
+    },
+    results = {
+        {type="item", name="silicon-dioxide-compound", amount=1, probability=.4},
+        {type="item", name="iron-element", amount=1, probability=.08},
+        {type="item", name="gold-element", amount=1, probability=.03},
+        {type="item", name="zirconium-element", amount=1, probability=.025},
+        {type="item", name="nickel-element", amount=1, probability=.02},
+        {type="item", name="tungsten-element", amount=1, probability=.02},
+        {type="item", name="gallium-element", amount=1, probability=.02},
+        {type="item", name="dysprosium-element", amount=1, probability=.01}
+    },
+    category = "dissolving",
+    energy_required = 1,
+    allow_decomposition = "false"
+}
 
 --== Dissolving Recipes ==--
     --== Compounds ==--
@@ -184,6 +207,7 @@ data:extend({
   ironOreDissolving,
   copperOreDissolving,
   rawFishDissolving,
+  stoneDissolving,
   --== Dissolving Recipies ==--
       --== Compounds ==--
   celluloseDissolving,
