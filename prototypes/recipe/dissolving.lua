@@ -192,7 +192,25 @@ local hydroxideDissolving = {
     },
     results = {
        {"oxygen-element",1},
-        {"hydrogen-element",1}
+       {"hydrogen-element",1}
+    },
+    category = "dissolving",
+    energy_required = 1,
+    allow_decomposition = "false"
+}
+
+local siliconDioxideDissolving = {
+    type = "recipe",
+    name = "silicon-dioxide-dissolving",
+    icon = "__alchemical-romance__/graphics/recipes/silicon-dioxide-dissolving.png",
+    icon_size = 128,
+    subgroup = "compound-dissolving",
+    ingredients = {
+        {"silicon-dioxide-compound",1}
+    },
+    results = {
+       {"silicon-element",1},
+       {"oxygen-element",2}
     },
     category = "dissolving",
     energy_required = 1,
@@ -213,5 +231,6 @@ data:extend({
   celluloseDissolving,
   malachiteDissolving,
   hydroxideDissolving,
-  proteinDissolving
+  proteinDissolving,
+  siliconDioxideDissolving
 })

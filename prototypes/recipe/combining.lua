@@ -197,6 +197,23 @@ local proteinCombining = {
     energy_required = 1
 }
 
+local siliconDioxideCombining = {
+    type = "recipe",
+    name = "silicon-dioxide-combining",
+    icon = "__alchemical-romance__/graphics/compounds/compound-silicon-dioxide.png",
+    icon_size = 128,
+    subgroup = "compound-combining",
+    ingredients = {
+        {"silicon-element",1},
+        {"oxygen-element",2}
+    },
+    results = {
+        {type="item", name="silicon-dioxide-compound", amount=1}
+    },
+    category = "combining",
+    energy_required = 1
+}
+
 data:extend({
   --== Combining Recipes ==--
       --== Items ==--
@@ -212,5 +229,6 @@ data:extend({
   celluloseCombining,
   malachiteCombining,
   hydroxideCombining,
-  proteinCombining
+  proteinCombining,
+  siliconDioxideCombining
 })
