@@ -84,7 +84,7 @@ local chemicalDissolver = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/electric-chemical-dissolver.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-heater.png",
           priority = "high",
           width = 25,
           height = 15,
@@ -389,7 +389,7 @@ local energyCondenser = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/electric-chemical-dissolver.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-heater.png",
           priority = "high",
           width = 25,
           height = 15,
