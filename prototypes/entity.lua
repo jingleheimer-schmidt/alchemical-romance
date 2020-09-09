@@ -40,7 +40,7 @@ local chemicalDissolver = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-base.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/256px-Block_Chemical_Dissolver.png",
           priority = "high",
           width = 129,
           height = 100,
@@ -236,7 +236,7 @@ local chemicalCombiner = {
       layers =
       {
         {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/256px-Block_Chemical_Combiner.png",
           priority = "high",
           width = 108,
           height = 119,
