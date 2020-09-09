@@ -46,16 +46,16 @@ local chemicalDissolver = {
           height = 100,
           frame_count = 1,
           shift = {0.421875, 0},
-          hr_version =
-          {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver.png",
-            priority = "high",
-            width = 239,
-            height = 219,
-            frame_count = 1,
-            shift = util.by_pixel(0.75, 5.75),
-            scale = 0.5
-          }
+          -- hr_version =
+          -- {
+          --   filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver.png",
+          --   priority = "high",
+          --   width = 239,
+          --   height = 219,
+          --   frame_count = 1,
+          --   shift = util.by_pixel(0.75, 5.75),
+          --   scale = 0.5
+          -- }
         },
         {
           filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-shadow.png",
@@ -243,17 +243,17 @@ local chemicalCombiner = {
           frame_count = 32,
           line_length = 8,
           shift = util.by_pixel(0, -0.5),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
-            priority = "high",
-            width = 214,
-            height = 237,
-            frame_count = 32,
-            line_length = 8,
-            shift = util.by_pixel(0, -0.75),
-            scale = 0.5
-          }
+          -- hr_version =
+          -- {
+          --   filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
+          --   priority = "high",
+          --   width = 214,
+          --   height = 237,
+          --   frame_count = 32,
+          --   line_length = 8,
+          --   shift = util.by_pixel(0, -0.75),
+          --   scale = 0.5
+          -- }
         },
         {
           filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
