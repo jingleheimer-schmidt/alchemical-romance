@@ -48,7 +48,7 @@ local chemicalDissolver = {
           shift = {0.421875, 0},
           -- hr_version =
           -- {
-          --   filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-mc-chemical-dissolver-screenshot",
+          --   filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace.png",
           --   priority = "high",
           --   width = 239,
           --   height = 219,
