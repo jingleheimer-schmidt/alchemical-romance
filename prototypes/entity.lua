@@ -40,7 +40,7 @@ local chemicalDissolver = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/lr-mc-chemical-dissolver-screenshot",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/lr-chemical-dissolver-base-align-with-factorio-furnace.png",
           priority = "high",
           width = 129,
           height = 100,
