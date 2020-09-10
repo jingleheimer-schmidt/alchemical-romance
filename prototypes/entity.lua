@@ -42,8 +42,8 @@ local chemicalDissolver = {
         {
           filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/256px-Block_Chemical_Dissolver.png",
           priority = "high",
-          width = 256,
-          height = 256,
+          width = 129,
+          height = 100,
           frame_count = 1,
           shift = {0.421875, 0},
           -- hr_version =
