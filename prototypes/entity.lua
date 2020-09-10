@@ -238,8 +238,8 @@ local chemicalCombiner = {
         {
           filename = "__alchemical-romance__/graphics/machines/chemical-combiner/chemical-combiner-mc-ps-grid.png",
           priority = "high",
-          width = 256,
-          height = 256,
+          width = 108,
+          height = 119,
           -- FIX THIS: --
           frame_count = 32,
           line_length = 8,
