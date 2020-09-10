@@ -236,10 +236,11 @@ local chemicalCombiner = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/256px-Block_Chemical_Combiner.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/chemical-combiner-mc-ps-grid.png",
           priority = "high",
           width = 256,
           height = 256,
+          -- FIX THIS: --
           frame_count = 32,
           line_length = 8,
           shift = util.by_pixel(0, -0.5),
