@@ -46,16 +46,16 @@ local chemicalDissolver = {
           height = 100,
           frame_count = 1,
           shift = {0.421875, 0},
-          -- hr_version =
-          -- {
-          --   filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace.png",
-          --   priority = "high",
-          --   width = 239,
-          --   height = 219,
-          --   frame_count = 1,
-          --   shift = util.by_pixel(0.75, 5.75),
-          --   scale = 0.5
-          -- }
+          hr_version =
+          {
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace.png",
+            priority = "high",
+            width = 239,
+            height = 219,
+            frame_count = 1,
+            shift = util.by_pixel(0.75, 5.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-shadow.png",
