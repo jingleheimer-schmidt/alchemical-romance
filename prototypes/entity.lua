@@ -88,8 +88,8 @@ local chemicalDissolver = {
           priority = "high",
           width = 129,
           height = 100,
-          frame_count = 4,
-          animation_speed = 0.01,
+          frame_count = 6,
+          animation_speed = 0.1,
           -- shift = {0.015625, 0.890625},
           hr_version =
           {
@@ -97,8 +97,8 @@ local chemicalDissolver = {
             priority = "high",
             width = 239,
             height = 219,
-            frame_count = 4,
-            animation_speed = 0.01,
+            frame_count = 6,
+            animation_speed = 0.1,
             -- shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
