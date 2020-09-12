@@ -99,6 +99,7 @@ local chemicalDissolver = {
             height = 219,
             frame_count = 6,
             animation_speed = 0.1,
+            shift = util.by_pixel(0.75, 5.75),
             -- shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
