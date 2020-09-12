@@ -89,7 +89,7 @@ local chemicalDissolver = {
           width = 129,
           height = 100,
           frame_count = 4,
-          animation_speed = 0.25,
+          animation_speed = 0.01,
           -- shift = {0.015625, 0.890625},
           hr_version =
           {
@@ -98,59 +98,59 @@ local chemicalDissolver = {
             width = 239,
             height = 219,
             frame_count = 4,
-            animation_speed = 0.25,
+            animation_speed = 0.01,
             -- shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
         },
         light = {intensity = 0.4, size = 6, shift = {0.0, 1.0}, color = {r = 1.0, g = 1.0, b = 1.0}}
       },
-      {
-        animation =
-        {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-1.png",
-          priority = "high",
-          width = 19,
-          height = 13,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = {-0.671875, -0.640625},
-          hr_version =
-          {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-1.png",
-            priority = "high",
-            width = 37,
-            height = 25,
-            frame_count = 4,
-            animation_speed = 0.5,
-            shift = util.by_pixel(-20.5, -18.5),
-            scale = 0.5
-          }
-        }
-      },
-      {
-        animation =
-        {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-2.png",
-          priority = "high",
-          width = 12,
-          height = 9,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = {0.0625, -1.234375},
-          hr_version =
-          {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-2.png",
-            priority = "high",
-            width = 23,
-            height = 15,
-            frame_count = 4,
-            animation_speed = 0.5,
-            shift = util.by_pixel(3.5, -38),
-            scale = 0.5
-          }
-        }
-      }
+      -- {
+      --   animation =
+      --   {
+      --     filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-1.png",
+      --     priority = "high",
+      --     width = 19,
+      --     height = 13,
+      --     frame_count = 4,
+      --     animation_speed = 0.5,
+      --     shift = {-0.671875, -0.640625},
+      --     hr_version =
+      --     {
+      --       filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-1.png",
+      --       priority = "high",
+      --       width = 37,
+      --       height = 25,
+      --       frame_count = 4,
+      --       animation_speed = 0.5,
+      --       shift = util.by_pixel(-20.5, -18.5),
+      --       scale = 0.5
+      --     }
+      --   }
+      -- },
+      -- {
+      --   animation =
+      --   {
+      --     filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-2.png",
+      --     priority = "high",
+      --     width = 12,
+      --     height = 9,
+      --     frame_count = 4,
+      --     animation_speed = 0.5,
+      --     shift = {0.0625, -1.234375},
+      --     hr_version =
+      --     {
+      --       filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-2.png",
+      --       priority = "high",
+      --       width = 23,
+      --       height = 15,
+      --       frame_count = 4,
+      --       animation_speed = 0.5,
+      --       shift = util.by_pixel(3.5, -38),
+      --       scale = 0.5
+      --     }
+      --   }
+      -- }
     }
 }
 
