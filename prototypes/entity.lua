@@ -250,53 +250,61 @@ local chemicalCombiner = {
             height = 219,
             frame_count = 1
           }
-        },
-        {
-          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop.png",
-          priority = "high",
-          width = 108,
-          height = 119,
-          -- FIX THIS: --
-          frame_count = 14,
-          line_length = 7,
-          shift = util.by_pixel(0, -0.5),
-          hr_version =
+        }
+      }
+    },
+    working_visualisations =
+    {
+      {
+        animation =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop.png",
-            priority = "high",
-            width = 239,
-            height = 219,
-            frame_count = 14,
-            line_length = 7,
-            shift = util.by_pixel(0, -0.75),
-            scale = 0.5
-          }
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
-          priority = "high",
-          width = 130,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(28, 4),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
-            priority = "high",
-            width = 260,
-            height = 162,
-            frame_count = 32,
-            line_length = 8,
-            draw_as_shadow = true,
-            shift = util.by_pixel(28, 4),
-            scale = 0.5
+            layers =
+            {
+              filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop.png",
+              priority = "high",
+              width = 108,
+              height = 119,
+              frame_count = 14,
+              line_length = 7,
+              shift = util.by_pixel(0, -0.5),
+              hr_version =
+              {
+                filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop.png",
+                priority = "high",
+                width = 239,
+                height = 219,
+                frame_count = 14,
+                line_length = 7,
+                shift = util.by_pixel(0, -0.75),
+                scale = 0.5
+              }
+            }
           }
         }
       }
+        -- {
+        --   filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
+        --   priority = "high",
+        --   width = 130,
+        --   height = 82,
+        --   frame_count = 32,
+        --   line_length = 8,
+        --   draw_as_shadow = true,
+        --   shift = util.by_pixel(28, 4),
+        --   hr_version =
+        --   {
+        --     filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
+        --     priority = "high",
+        --     width = 260,
+        --     height = 162,
+        --     frame_count = 32,
+        --     line_length = 8,
+        --     draw_as_shadow = true,
+        --     shift = util.by_pixel(28, 4),
+        --     scale = 0.5
+        --   }
+        -- }
     }
-}
 
 --== Energy Condenser ==--
 
