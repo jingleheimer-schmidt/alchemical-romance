@@ -237,25 +237,40 @@ local chemicalCombiner = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/chemical-combiner-mc-ps-grid.png",
+          filename = "__alchemical-romance__/graphics/machine/lr-mc-chemical-combiner-screenshot.png",
+          priority = "high",
+          width = 119,
+          height = 100,
+          frame_count = 1,
+          hr_version =
+          {
+            filename = "__alchemical-romance__/graphics/machine/hr-mc-chemical-combiner-screenshot.png",
+            priority = "high",
+            width = 239,
+            height = 219,
+            frame_count = 1
+          }
+        },
+        {
+          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop.png",
           priority = "high",
           width = 108,
           height = 119,
           -- FIX THIS: --
-          frame_count = 32,
-          line_length = 8,
+          frame_count = 14,
+          line_length = 7,
           shift = util.by_pixel(0, -0.5),
-          -- hr_version =
-          -- {
-          --   filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
-          --   priority = "high",
-          --   width = 214,
-          --   height = 237,
-          --   frame_count = 32,
-          --   line_length = 8,
-          --   shift = util.by_pixel(0, -0.75),
-          --   scale = 0.5
-          -- }
+          hr_version =
+          {
+            filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop.png",
+            priority = "high",
+            width = 239,
+            height = 219,
+            frame_count = 14,
+            line_length = 7,
+            shift = util.by_pixel(0, -0.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
