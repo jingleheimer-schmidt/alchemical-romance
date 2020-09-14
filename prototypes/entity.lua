@@ -237,7 +237,7 @@ local chemicalCombiner = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop-with-background-exported-spritesheet.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop-with-background-spritesheet-fixed.png",
           priority = "high",
           width = 119,
           height = 100,
@@ -246,7 +246,7 @@ local chemicalCombiner = {
           animation_speed = .1,
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop-with-background-exported-spritesheet.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop-with-background-spritesheet-fixed.png.png",
             priority = "high",
             width = 239,
             height = 219,
