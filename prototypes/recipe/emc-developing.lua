@@ -13,7 +13,7 @@ local ironElementDeveloping = {
         {"iron-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -30,7 +30,7 @@ local copperElementDeveloping = {
         {"copper-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -47,7 +47,7 @@ local oxygenElementDeveloping = {
         {"oxygen-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -64,7 +64,7 @@ local carbonElementDeveloping = {
         {"carbon-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -81,7 +81,7 @@ local sulfurElementDeveloping = {
         {"sulfur-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -98,7 +98,7 @@ local hydrogenElementDeveloping = {
         {"hydrogen-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -115,7 +115,7 @@ local tungstenElementDeveloping = {
         {"tungsten-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -132,7 +132,7 @@ local nitrogenElementDeveloping = {
         {"nitrogen-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -149,7 +149,7 @@ local seleniumElementDeveloping = {
         {"selenium-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -166,7 +166,7 @@ local goldElementDeveloping = {
         {"gold-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -183,7 +183,7 @@ local dysprosiumElementDeveloping = {
         {"dysprosium-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -200,7 +200,7 @@ local zirconiumElementDeveloping = {
         {"zirconium-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -217,7 +217,7 @@ local nickelElementDeveloping = {
         {"nickel-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -234,7 +234,7 @@ local galliumElementDeveloping = {
         {"gallium-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -251,7 +251,7 @@ local siliconElementDeveloping = {
         {"silicon-element",1}
     },
     category = "developing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
