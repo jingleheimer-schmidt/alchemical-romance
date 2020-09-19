@@ -117,6 +117,7 @@ data:extend({
         compoundSubgroup,
         itemDissolvingSubgroup,
         compoundDissolvingSubgroup,
+        fluidDissolvingSubgroup,
         itemCombiningSubgroup,
         compoundCombiningSubgroup,
         machineSubgroup,
