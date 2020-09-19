@@ -49,6 +49,13 @@ local itemDissolvingSubgroup = {
     order = "d"
 }
 
+local fluidDissolvingSubgroup = {
+    type = "item-subgroup",
+    name = "fluid-dissolving",
+    group = "alchemical-romance-group",
+    order = "da"
+}
+
 local compoundDissolvingSubgroup = {
     type = "item-subgroup",
     name = "compound-dissolving",
