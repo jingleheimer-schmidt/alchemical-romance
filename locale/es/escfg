@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
+carbo-element=Carbono
+elemento-oxígeno=oxígeno
+ulfuro-element=Azufre
+hidrógeno-element=Hídrogeno
+elemento=hierro
 tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+cobre-element=Cobre
+elemento-nitrogeno=Nitrógeno
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+oro-elemento=oro
+zirconio-element=Zirconio
+níquel-element=Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+disprosio-elemento=Disprosio
+silicio-element=silicio
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+celulosa-compound=Celulosa
+malaquita-compound=Malaquita
+hidroxide-compound=Hilroxida
+proteína-compuesto=proteína
+compuesto de silicio-dioxido=Dióxido de silicio
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+une-emc=EMC:0001
+decena-emc=EMC:0010
+centena-emc=EMC:0100
+millar-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Covalencia de la materia energética
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
+elemento-carbo=EMC:0016
+elemento-oxígeno=EMC:0008
 sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
+elemento-hidrógeno=EMC:0001
+plano-element=EMC:0032
 tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
+elemento-cobre=EMC:0032
+elemento-nitrogen=EMC:0016
+elemento-selenio=EMC:0128
+oro-element=EMC:0256
+elemento-disprosio=EMC:0512
+elemento-zirconio=EMC:0256
 nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+elemento-gallio=EMC:0064
+elemento-silicón=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+celulosa-compound=C6-H10-O5
+malaquita-compound=Cu2-C-O3-(OH)2
+hidroxide-compuesto=O-H
+proteína-compound=C3-H7-N-O2-S
+silicio-dioxida-compuesto=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+disolver carbón=Disolución de carbón
+disolver madera=Disolver madera
+disolver hierro oro=Disolver mineral de hierro
+disolver cobre-ore-disolver=Disolver mineral de cobre
+disolver peces crudos=Disolver peces crudos
+disolver piedra=Disolver piedra
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+celulosa-disolving=Disolución de celulosa
+disolver malaquita=Disolver malaquita
+disolver hidroxide-disuelto=Disolución de hiroxida
+disolver proteínas=Disolver proteínas
+disolving=Disolver silicio-dioxide=Disolver dióxido de silicio
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+combinando-carbón=Carbón
+combinación=Madera
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+celulosa-combinación=Celulosa
+malaquita-combinación=Malaquita
+hidroxide-combining=Hilroxida
+proteina-combining=Proteína
+combinación de silicio-dioxide-silicio = Dióxido de silicio
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+alquímica-romance-group=Romance alquímico
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+entidad-disolver-químico=Disolver químico
+combinador-químico=Combinador químico
+energía-condensador-entity=Condenador de energía
+energía-desarrollador-entity=Desarrollador de energía
 
 [autoplace-control-name]
