@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+pierwiastek węgla = węgiel
+tlen pierwiastek = tlen
+pierwiastek siarki=Siarka
+wodoro-pierwiastek = wodór
+żelazo-pierwiastek = żelazo
+element wolframu = wolfram,
+miedzi-element = miedź
+pierwiastek azotu=azot
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+element gold-element=Złoto
+pierwiastek cyrkonowy = cyrkonowy
+nikiel = Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+pierwiastek dysprozu = Dysproz
+krzemionka = krzemionka
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+celuloza związek = celuloza
+związek malachitowy = malachit
+wodorotlenek = wodorotlenek
+związek białkowy = białko
+Związek ditlenku krzemu = Tlenek krzemu
 
-one-emc=EMC:0001
+Jedno-emc=EMC:0001
 ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+sto emc=EMC:0100
+tysiąc emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=kowalencja w zakresie energii
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
+pierwiastek węgla = EMC:0016
+tlen-pierwiastek = EMC:0008
 sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
+wodoro-pierwiastek = EMC:0001
+żelazo-element=EMC:0032
+element wolframowy = EMC:0128
+miedziana = EMC:0032
+pierwiastek azotu=EMC:0016
+pierwiastek selenu = EMC:0128
 gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+pierwiastek dysprozu = EMC:0512
+pierwiastek cyrkonowy = EMC:0256
+nikiel = EMC:0032
+pierwiastek galu=EMC:0064
+pierwiastek krzemu=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+związek celulozowy=C6-H10-O5
+związek malachitowy = Cu2-C-O3-(OH)2
+wodorotlenek = O-H
+związek białkowy = C3-H7-N-O2-S
+związek z ditlenkiem krzemu = Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+Rozpuszczanie węgla = Rozpuszczanie węgla
+rozpuszczanie drewna = Rozpuszczanie Drewna
+Rozpuszczanie rudy żelaza = Rozpuszczanie rudy żelaza
+Rozpuszczanie rudy miedzi=Rozpuszczanie Ruda miedzi
+Rozpuszczanie ryb z ryb = Rozpuszczanie surowych ryb
+rozpuszczanie kamienne=Rozpuszczanie kamienia
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+rozpuszczanie celulozy = Rozpuszczanie celulozy
+rozpuszczanie malachitów = rozpuszczanie malachitów
+Rozpuszczanie wodorotlenku = Rozpuszczanie wodorotlenku
+Rozpuszczanie białka
+Rozpuszczanie ditlenku krzemu = Rozpuszczanie ditlenku krzemu
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+Połączenie węgla = Węgiel
+drewno łączące = Drewno
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+celuloza łączona = celuloza
+malachit-combining=malachite
+połączenie wodorotlenków = wodorotlenek
+połączenie białek = białko
+połączenie dwutlenku krzemu=ditlenek krzemu
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+Grupa alchemiczna-romanna- = alchemiczna romancja
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+Rozpuszczalnik chemiczny = Rozpuszczalnik chemiczny
+chemiczny-kombinator-entity=Chemical Combiner
+Elektrownia skraplająca energię=Elektryczna kondensator
+Energia-developer-entity=Deweloper
 
 [autoplace-control-name]
