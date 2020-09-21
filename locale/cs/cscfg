@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+Prvky uhlíku = uhlík
+oxygen-element=kyslík
+sulfurylprvek = síra
+vodíkový prvek=vodík
+žehlička=Železo
+wolframový prvek=wolframový prvek
+Měděný prvek = měď
+dusíkaté elementy = dusík
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+zlatý prvek=Zlato
+zirkonium-element=zirkonium
+nikel-element=Nikel
 gallium-element=Gallium
 dysprosium-element=Dysprosium
-silicon-element=Silicon
+křemíkový prvek=Silicon
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+celulózová sloučenina = celulosa
+malachitové sloučeniny = malachit
+hydroxid-sloučeniny =Hydroxid
+bílkovinná látka=protein
+Sloučeniny oxidu křemičitého = oxid křemičitý
 
-one-emc=EMC:0001
+jedna emc=EMC:0001
 ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+sto emc=EMC:0100
+tisíce-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Kovalost energetické hmoty
 
 [item-description]
-carbon-element=EMC:0016
+uhlík-element=EMC:0016
 oxygen-element=EMC:0008
 sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
+vodíkový prvek=EMC:0001
+železo-element=EMC:0032
+wolfram-element=EMC:0128
+měď-element=EMC:0032
+dusík–element=EMC:0016
 selenium-element=EMC:0128
 gold-element=EMC:0256
 dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+zirkonium-element=EMC:0256
+nikl-element=EMC:0032
+gallium element=EMC:0064
+křemíkové prvky=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+celulózová sloučenina=C6-H10-O5
+malachitové sloučeniny=Cu2-C-O3-(OH)2
+hydroxid-sloučeniny =O-H
+proteinové sloučeniny=C3-H7-N-O2-S
+Sloučeniny oxidu křemičitého =Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+rozpuštěné uhlí=rozpuštění uhlí
+rozpuštění dřeva=rozpuštění dřeva
+Odolnost železné rudy=rozpuštění železné rudy
+Měď – ruda rozpouštěná=rozpuštění měděné rudy
+raw-fish-dissolving=Syrové ryby štěpení
+Kamenné rozpuštění=Kamenné rozpuštění
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+rozpouštění celulózy=rozpuštění celulosy
+malachitový roztok=Malachite Dissolving
+rozpuštěný hydroxid=rozpuštěný hydroxid
+Rozlišení proteinů=Rozpuštění proteinu
+rozpuštěný oxid křemičitý=rozpuštění oxidu křemičitého
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+Kombinace uhlí = uhlí
+Kombinace dřeva=Dřevo
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+celulosa kombinovaná s = celulosa
+malachit-kombining=malachit
+hydroxid-kombining=Hydroxid
+Kombinace proteinů=protein
+Kombinace oxidu křemičitého =Oxid křemičitý
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+skupina alchemical-romance-group=Alchemical Romance
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+chemicko-disolver-entity=Chemical Dissolver
+chemicko-kombinovatelná entita = chemický kombinátor
+energetický kondenzátor – jednotka = energetický kondenzátor
+energetický vývojář-entity = energetický vývojář
 
 [autoplace-control-name]
