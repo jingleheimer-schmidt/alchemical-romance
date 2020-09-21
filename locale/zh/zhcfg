@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
+碳元素=carbon
+氧元素=Oxygen
+硫元素=硫丹。
+氢元素=氢量
+铁元素=铁色
 tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+铜元素=铜器
+氮元素=Nitrogen
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+黄金元素=Gold
+zirconum-element=Zirconium
+镍元素=Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+调节元素=Dysprosium
+硅元素=硅图标
 
-cellulose-compound=Cellulose
+蜂窝ulose-compound=Cellulose
 malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+氢氧化物化合物=氢氧化物
+蛋白质化合物=蛋白质
+硅-二恶英化合物=二恶英硅化
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+一emc=EMC:0001
+ten-emc=EMC：0010
+第一百位=EMC：0100
+千位=EMC：1 000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Energy Matter共性
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+碳元素=EMC：0016
+氧气元素=EMC：0008
+硫元素=EMC：0016
+氢元素=EMC:0001
+铁元素=EMC：0032
+tungsten-element=EMC：0128
+铜元素=EMC：0032
+氮元素=EMC：0016
+selenum-element=EMC：0128
+黄金元素=EMC：0256
+dyproum-element=EMC：0512
+zirconum-element=EMC：0256
+昵称元素=EMC：0032
+gallium-element=EMC：0064
+硅元素=EMC：0008
 
-cellulose-compound=C6-H10-O5
+蜂窝ulose-compound=C6-H10-O5
 malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+氢氧化物化合物=O-H
+蛋白质复合物=C3-H7-N-O2-S
+硅二恶英化合物=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+煤拆解=煤拆解
+木头拆解=木头
+铁矿溶解=铁矿石
+铜矿溶解=铜矿溶解器
+草鱼溶解=生鱼溶解
+石头拆解=石头
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+细胞解析=细胞解析器
+malachite-dissolving=Malachite解锁
+hydroxide-dissolving=Hydroxide dissolution
+蛋白质解析=蛋白质解析器
+硅-二恶英溶解=硅二恶英溶解器
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+煤组合 = 煤色
+木头组合=木头
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+细胞综合=细胞数
+Malachite组合=Malachite
+氢氧化物组合=氢氧化物
+蛋白质组合=蛋白质组
+硅-二恶英组合=硅二氧化物
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+Alchemical-romance-group=Alchemical Romance
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+Chemical-dissoler-entity=Chemical Dissoler
+化学组合-entity=Chemical Combiner
+能量冷凝器实体=能量冷凝器
+能量开发者-实体=能源开发者
 
 [autoplace-control-name]
