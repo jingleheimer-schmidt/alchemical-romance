@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+вуглецево-елемент=Карбон
+оксиген-елемент=оксиген
+сульфур=сірка
+гідроген-елемент=Гідроген
+залізо-елемент=Залізо
+вольфрам-елемент=Тунгстен
+мідь = Мідь
+азот = нітроген
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+золота елемент=золота
+цирконій-елемент=Цирконій
+псевдо-елемент=Нікель
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+диспрозій-елемент=Діспрозіум
+кремнієвий елемент =Силікон
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+целюлоз-сполука = Целюлоза
+малахіт-компунд=Малахіт
+гідроксид сполук = гідроксид
+білок-комп"ют-= Протеїн
+кремнієвий діоксид порівняння=Силіконова діоксид
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+одна emc=EMC:0001
+десят-Емк=ЕВК: 10
+сотня emc=EMC:0100
+тис. Ем=ЄВС: 1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Енергетична рівність
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
+Елемент вуглецю = ЄВСК: 16
+оксиген-елемент=ЄВКРАВ08
+сульфур-елемент=EMC:0016
+гідроген-елемент=ЄВКВЕ01
+залізо-елемент=ЄВКУ32
 tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+елемент міді = EMC:0032
+азот = ЄВСКВ: 16
+selenium-елемент =EMC:0128
+золота елемент=ЄВС:0256
+dysprosium-елемент=EMC:0512
+zirconium-елемент=EMC:0256
+псевдо-елемент=EMC:0032
+galum-елемент=EMC:0064
+силікон-елемент=ЄВКУ08
 
-cellulose-compound=C6-H10-O5
+сполука по целюлозу = C6-H10-O5
 malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+гідроксид сполук = O-H
+білка-комп"ютер = C3-H7-N-O2-S
+кремній-діоксид-комп"ютер = Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+вугільне розчинення вугілля
+Розбирання побуту = Дерев'яне розчинення
+розчинення залізоруди = залізної руди
+розчинення мідно-руд мідної руди
+сира рибно-дезолюція=Сира рибка розчинення
+кам'яне розчищення каменів
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+целюлоза, що розкриває проблему целюлози
+маляхіттєве розчинення = Малахітова дислокація
+гідроксидно-розчинення=Гідроксид розчинення
+протеїн-дезольвінг=Protein розкриття
+кремнієвий діоксид - розрозв'язання=Силіконовий Діоксид
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+вугілля=Вугілля
+деревоподібне сполучення = Дерево
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+целюлоз-комбінування=Целюлоза
+малахіт-комбінування=Малахіт
+гідроксид комбінування=Гідроксид
+протеїн-комбінування=Протеїн
+кремнієвий діоксид силікону
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+алхіміко-романтична=Алхімічний романс
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+хімічно-диспользована=хімічний розчинювач
+хімічний комбінатний=Хімічний комбінат
+енергія конденсервентивність=Енергетичний конденсатор
+енергетичний об'єкт=Енергетичний розробник
 
 [autoplace-control-name]
