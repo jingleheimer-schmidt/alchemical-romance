@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
+carbon-element=углеродный
+кислородный элемент=кислород
+sulfur-element=сера
+водород-элемент=водород
+железо-элемент=железо
 tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+меди-элемент=меди
+азот-элемент=азоты
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+gold-элемент=золото
+zirconium-элемент=цирконий
+никель-элемент=Никель
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+диспрозий-элемент=диспрозий
+silicon-элемент=Silicon
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+целлюлоза-соединение=Целлюлоза
+malachite-compound=Малахит
+гидроксид-соединение=Гидроксид
+белковая смесь=белок
+силикон-диоксид соединения=силиконовый диоксид
 
 one-emc=EMC:0001
 ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+100-emc=EMC:0100
+тысячи emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Энергетическая Ковалерия
 
 [item-description]
 carbon-element=EMC:0016
 oxygen-element=EMC:0008
 sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
+водород элемент=EMC:0001
 iron-element=EMC:0032
 tungsten-element=EMC:0128
 copper-element=EMC:0032
 nitrogen-element=EMC:0016
 selenium-element=EMC:0128
 gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
+диспрозий-элемент=EMC:0512
+zirconium-элемент=EMC:0256
 nickel-element=EMC:0032
 gallium-element=EMC:0064
 silicon-element=EMC:0008
 
-cellulose-compound=C6-H10-O5
+целлюлоз-соединение=С6-Н10-О5
 malachite-compound=Cu2-C-O3-(OH)2
 hydroxide-compound=O-H
 protein-compound=C3-H7-N-O2-S
 silicon-dioxide-compound=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+угольная растворителя=Раствор угля
+древесно-растворение=Растворение дерева
+железо-рудное растворение=Железный раствор
+медная руда-растворение=Раствор медной руды
+растворение рыбы=Сырая рыба
+растворение камня =Распаление камня
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+целлюлоза-растворителя=Растворение клеток
+Malachite Dissolving=Malachite
+гидроксид-растворение=Гидроксид Растворение
+protein-dissolving=Растворение белка
+silicon-dioxid-dissolving=Silicon Dioxide Растворение
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+угольная комбинация=уголь
+комбинация дерева=дерево
 
-cellulose-combining=Cellulose
+целлюлоза-комбинация=Целлюлоза
 malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+гидроксидная комбинация=Гидроксид
+белковая комбинация=белок
+silicon-dioxid-комбинация = Силиконовый диоксид
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+алхимико-романтическая группа=Алхимический романс
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+химическое-диссольверное образование=Химический раствор
+химический комбинатор=Химический комбинат
+конденсатор энергии=Энергетический конденсатор
+энергоразработчик-сущность=Энергетический разработчик
 
 [autoplace-control-name]
