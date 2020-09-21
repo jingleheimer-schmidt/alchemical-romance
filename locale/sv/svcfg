@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+kol-element=Kol
+syre-element=Syre
+svavel-element=Svavel
+väte-element=Väte
+järn-element=Järn
+Volfram-element=Volfram
+koppar-element=Koppar
+kväve-element=Kväve
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
+Guldelement=Guld
+zirkonium-element=zirkonium
 nickel-element=Nikel
 gallium-element=Gallium
 dysprosium-element=Dysprosium
-silicon-element=Silicon
+silikon-element=Silicon
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+cellulosa-förening=Cellulosa
+malakit-förening=Malakit
+hydroxid-förening=Hydroxid
+protein-förening=Protein
+kiseldioxid-förening=kiseldioxid
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+en-emc=EMC:0001
+tio-emc=EMC:0010
+hundra-emc=EMC:0100
+tusenemc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Energi kovalens
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
+kol-element=EMC:0016
+syre-element=EMC:0008
+svavel-element=EMC:0016
+väte-element=EMC:0001
+järn-element=EMC:0032
+Volfram-element=EMC:0128
+koppar-element=EMC:0032
 nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
+selen-element=EMC:0128
+Guld-element=EMC:0256
 dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
+zirkonium-element=EMC:0256
 nickel-element=EMC:0032
 gallium-element=EMC:0064
-silicon-element=EMC:0008
+silikon-element=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
+cellulosa-förening=C6-H10-O5
+malakit-förening=Cu2-C-O3-(OH)2
+hydroxid-förening=O-H
 protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+kiseldioxid-förening=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+kolupplösning=Kol upplösning
+trä-upplösning=Träupplösning
+järnmalmsupplösning=Järnmalm upplösning
+koppar-malm upplösning=Kopparmalm upplösning
+råfisk-upplösning=Rå fisk upplösning
+stenupplösning=Stenupplösning
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+cellulosa-upplösning=Cellulosa upplösning
+malakit-upplösning = Malakit upplösning
+hydroxid-upplösning=Hydroxid upplösning
+proteinupplösning=Proteinupplösning
+kiseldioxid-upplösning=kiseldioxid upplösning
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+kol-kombination=Kol
+trä-kombination=Trä
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
+cellulosa-kombination=Cellulosa
+malakita-kombination=Malakit
+hydroxid-kombination=Hydroxid
 protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+kiseldioxid-kombination=kiseldioxid
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+alkemisk-romantisk-grupp=Alkemisk Romans
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+kemisk-upplösande-entity=Kemisk Upplösare
+kemisk-kombinera-entity=Kemisk Kombinatör
+energi-kondenser-enhet=Energikondensor
+energi-utvecklare-enhet=Energiutvecklare
 
 [autoplace-control-name]
