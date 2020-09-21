@@ -1,80 +1,80 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+hiilielementti = hiili
+happielementti = happi
+sulfur-elementti = rikki
+vetyelementti = vety
+rautaelementti=rauta
+volframi-elementti = volframi
+kupari-elementti = kupari
+typpi-elementti = typpi
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+Kultaelementti = kulta
+zirkonium-elementti=Zirkonium
+nikkeli-elementti = Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+dysprosium-elementti = Dysprosium
+silikoni-elementti = pii
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+selluloosayhdiste=selluloosa
+malkiitti-yhdiste=malkiitti
+hydroksidiyhdiste=hydroksidi
+proteiiniyhdiste=proteiini
+piidioksidiyhdiste=piidioksidi
 
 one-emc=EMC:0001
 ten-emc=EMC:0010
-hundred-emc=EMC:0100
+100–emc=EMC:0100
 thousand-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Energia-aine Covalence
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+hiilielementti = EMC:0016
+happi-elementti = EMC:0008
+sulfur-elementti = EMC:0016
+vetyelementti = EMC:0001
+Rautaelementti = EMC:0032
+tungsten-elementti = EMC:0128
+kupari-elementti = EMC:0032
+Typpi-elementti = EMC:0016
+seleeni- elementti=EMC:0128
+Kulta-elementti = EMC:0256
+dysprosium-elementti = EMC:0512
+zirkonium-elementti = EMC:0256
+nikkeli-elementti = EMC:0032
+gallium-elementti = EMC:0064
+silikoni-elementti = EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+selluloosayhdiste=C6-H10-O5
+malkiitti-yhdiste=Cu2-C-O3-(OH)2
+hydroksidiyhdiste=O-H
+proteiiniyhdiste=C3-H7-N-O2-S
+piidioksidiyhdiste=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+Hiilen liukeneminen
+Puuliukeneminen=Puuliukeneminen
+rautamalmin liukeneminen = rautamalmin liukeneminen
+Kupari-malmiliuoksen liuottaminen = Kupari-malmiliuoksen liuottaminen
+raakakalan liuottaminen = raakakalan liuottaminen
+kiveen liuottaminen=kiveen liuottaminen
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+selluloosan liuottaminen
+malkiitti- liukeneminen = malkiitti- liukeneminen
+hydroksidin liuottaminen = hydroksidin liuottaminen
+proteiinin liuottaminen = proteiinin liuottaminen
+silikonidioksidin liuottaminen = piidioksidin liuottaminen
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+Hiili-yhdistelmä=Kivihiili
+puu-yhdistelmä-=Puu
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+selluloosayhdistelmä: selluloosa
+malkiitti-kombinaatio=malkiitti
+hydroksidi-kombinaatio=hydroksidi
+proteiini-kombinaatio=proteiini
+silikonidioksidi-kombinaatio=piidioksidi
 
 [technology-name]
 
@@ -82,9 +82,9 @@ silicon-dioxide-combining=Silicon Dioxide
 alchemical-romance-group=Alchemical Romance
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+Kemiallinen liuottimena = Kemiallinen liuottaja
+kemiallinen-kombiner-entity=Chemical Combiner
+energia-lauhduttimen kokonaisuus=Energia lauhdutin
+energia-kehittäjä-kokonaisuus=Energiankehittäjä
 
 [autoplace-control-name]
