@@ -13,7 +13,7 @@ local ironElementCondensing = {
         {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -30,7 +30,7 @@ local copperElementCondensing = {
         {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -47,7 +47,7 @@ local oxygenElementCondensing = {
         {type="fluid", name="emc", amount=8}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -64,7 +64,7 @@ local carbonElementCondensing = {
         {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -81,7 +81,7 @@ local sulfurElementCondensing = {
         {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -98,7 +98,7 @@ local hydrogenElementCondensing = {
         {type="fluid", name="emc", amount=1}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -115,7 +115,7 @@ local tungstenElementCondensing = {
         {type="fluid", name="emc", amount=128}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -132,7 +132,7 @@ local nitrogenElementCondensing = {
         {type="fluid", name="emc", amount=16}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -149,7 +149,7 @@ local seleniumElementCondensing = {
         {type="fluid", name="emc", amount=128}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -166,7 +166,7 @@ local goldElementCondensing = {
         {type="fluid", name="emc", amount=256}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -183,7 +183,7 @@ local dysprosiumElementCondensing = {
         {type="fluid", name="emc", amount=512}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -200,7 +200,7 @@ local zirconiumElementCondensing = {
         {type="fluid", name="emc", amount=256}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -217,7 +217,7 @@ local nickelElementCondensing = {
         {type="fluid", name="emc", amount=32}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -234,7 +234,7 @@ local galliumElementCondensing = {
         {type="fluid", name="emc", amount=64}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 
@@ -251,7 +251,7 @@ local siliconElementCondensing = {
         {type="fluid", name="emc", amount=8}
     },
     category = "condensing",
-    energy_required = .25,
+    energy_required = .5,
     allow_decomposition = "false"
 }
 

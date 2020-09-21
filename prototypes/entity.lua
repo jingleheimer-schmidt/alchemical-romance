@@ -40,7 +40,7 @@ local chemicalDissolver = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-base.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/lr-chemical-dissolver-base-align-with-factorio-furnace.png",
           priority = "high",
           width = 129,
           height = 100,
@@ -48,7 +48,7 @@ local chemicalDissolver = {
           shift = {0.421875, 0},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace.png",
             priority = "high",
             width = 239,
             height = 219,
@@ -84,73 +84,74 @@ local chemicalDissolver = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-heater.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/lr-chemical-dissolver-line-up-with-factorio-furnace-working-animation-loop.png",
           priority = "high",
-          width = 25,
-          height = 15,
-          frame_count = 12,
-          animation_speed = 0.5,
-          shift = {0.015625, 0.890625},
+          width = 129,
+          height = 100,
+          frame_count = 6,
+          animation_speed = 0.1,
+          -- shift = {0.015625, 0.890625},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-heater.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace-working-animation-loop.png",
             priority = "high",
-            width = 60,
-            height = 56,
-            frame_count = 12,
-            animation_speed = 0.5,
-            shift = util.by_pixel(1.75, 32.75),
+            width = 239,
+            height = 219,
+            frame_count = 6,
+            animation_speed = 0.1,
+            shift = util.by_pixel(0.75, 5.75),
+            -- shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
         },
         light = {intensity = 0.4, size = 6, shift = {0.0, 1.0}, color = {r = 1.0, g = 1.0, b = 1.0}}
       },
-      {
-        animation =
-        {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-1.png",
-          priority = "high",
-          width = 19,
-          height = 13,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = {-0.671875, -0.640625},
-          hr_version =
-          {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-1.png",
-            priority = "high",
-            width = 37,
-            height = 25,
-            frame_count = 4,
-            animation_speed = 0.5,
-            shift = util.by_pixel(-20.5, -18.5),
-            scale = 0.5
-          }
-        }
-      },
-      {
-        animation =
-        {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-2.png",
-          priority = "high",
-          width = 12,
-          height = 9,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = {0.0625, -1.234375},
-          hr_version =
-          {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-2.png",
-            priority = "high",
-            width = 23,
-            height = 15,
-            frame_count = 4,
-            animation_speed = 0.5,
-            shift = util.by_pixel(3.5, -38),
-            scale = 0.5
-          }
-        }
-      }
+      -- {
+      --   animation =
+      --   {
+      --     filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-1.png",
+      --     priority = "high",
+      --     width = 19,
+      --     height = 13,
+      --     frame_count = 4,
+      --     animation_speed = 0.5,
+      --     shift = {-0.671875, -0.640625},
+      --     hr_version =
+      --     {
+      --       filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-1.png",
+      --       priority = "high",
+      --       width = 37,
+      --       height = 25,
+      --       frame_count = 4,
+      --       animation_speed = 0.5,
+      --       shift = util.by_pixel(-20.5, -18.5),
+      --       scale = 0.5
+      --     }
+      --   }
+      -- },
+      -- {
+      --   animation =
+      --   {
+      --     filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-2.png",
+      --     priority = "high",
+      --     width = 12,
+      --     height = 9,
+      --     frame_count = 4,
+      --     animation_speed = 0.5,
+      --     shift = {0.0625, -1.234375},
+      --     hr_version =
+      --     {
+      --       filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-2.png",
+      --       priority = "high",
+      --       width = 23,
+      --       height = 15,
+      --       frame_count = 4,
+      --       animation_speed = 0.5,
+      --       shift = util.by_pixel(3.5, -38),
+      --       scale = 0.5
+      --     }
+      --   }
+      -- }
     }
 }
 
@@ -236,47 +237,67 @@ local chemicalCombiner = {
       layers =
       {
         {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop-with-background-spritesheet-fixed.png",
           priority = "high",
-          width = 108,
-          height = 119,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, -0.5),
+          width = 119,
+          height = 100,
+          frame_count = 14,
+          line_length = 7,
+          animation_speed = .1,
           hr_version =
           {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop-with-background-spritesheet-fixed.png",
             priority = "high",
-            width = 214,
-            height = 237,
-            frame_count = 32,
-            line_length = 8,
-            shift = util.by_pixel(0, -0.75),
-            scale = 0.5
-          }
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
-          priority = "high",
-          width = 130,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(28, 4),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
-            priority = "high",
-            width = 260,
-            height = 162,
-            frame_count = 32,
-            line_length = 8,
-            draw_as_shadow = true,
-            shift = util.by_pixel(28, 4),
-            scale = 0.5
+            width = 239,
+            height = 219,
+            frame_count = 14,
+            line_length = 7,
+            animation_speed = .1,
+            scale = .5
           }
         }
+        -- {
+        --   filename = "__alchemical-romance__/graphics/machines/chemical-combiner/lr-mc-chemical-combiner-working-animation-loop.png",
+        --   priority = "high",
+        --   width = 108,
+        --   height = 119,
+        --   frame_count = 14,
+        --   line_length = 7,
+        --   shift = util.by_pixel(0, -0.5),
+        --   hr_version =
+        --   {
+        --     filename = "__alchemical-romance__/graphics/machines/chemical-combiner/hr-mc-chemical-combiner-working-animation-loop.png",
+        --     priority = "high",
+        --     width = 239,
+        --     height = 219,
+        --     frame_count = 14,
+        --     line_length = 7,
+        --     shift = util.by_pixel(0, -0.75),
+        --     scale = 0.5
+        --   }
+        -- },
+        -- {
+        --   filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
+        --   priority = "high",
+        --   width = 130,
+        --   height = 82,
+        --   frame_count = 32,
+        --   line_length = 8,
+        --   draw_as_shadow = true,
+        --   shift = util.by_pixel(28, 4),
+        --   hr_version =
+        --   {
+        --     filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
+        --     priority = "high",
+        --     width = 260,
+        --     height = 162,
+        --     frame_count = 32,
+        --     line_length = 8,
+        --     draw_as_shadow = true,
+        --     shift = util.by_pixel(28, 4),
+        --     scale = 0.5
+        --   }
+        -- }
       }
     }
 }
@@ -345,7 +366,7 @@ local energyCondenser = {
       layers =
       {
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-base.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/lr-chemical-dissolver-base-align-with-factorio-furnace.png",
           priority = "high",
           width = 129,
           height = 100,
@@ -353,7 +374,7 @@ local energyCondenser = {
           shift = {0.421875, 0},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-line-up-with-factorio-furnace.png",
             priority = "high",
             width = 239,
             height = 219,
@@ -389,7 +410,7 @@ local energyCondenser = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-heater.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/chemical-dissolver-heater.png",
           priority = "high",
           width = 25,
           height = 15,
@@ -398,7 +419,7 @@ local energyCondenser = {
           shift = {0.015625, 0.890625},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-heater.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/hr-chemical-dissolver-heater.png",
             priority = "high",
             width = 60,
             height = 56,
@@ -413,7 +434,7 @@ local energyCondenser = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-1.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/chemical-dissolver-propeller-1.png",
           priority = "high",
           width = 19,
           height = 13,
@@ -422,7 +443,7 @@ local energyCondenser = {
           shift = {-0.671875, -0.640625},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-1.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/hr-chemical-dissolver-propeller-1.png",
             priority = "high",
             width = 37,
             height = 25,
@@ -436,7 +457,7 @@ local energyCondenser = {
       {
         animation =
         {
-          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/chemical-dissolver-propeller-2.png",
+          filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/chemical-dissolver-propeller-2.png",
           priority = "high",
           width = 12,
           height = 9,
@@ -445,7 +466,7 @@ local energyCondenser = {
           shift = {0.0625, -1.234375},
           hr_version =
           {
-            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/hr-chemical-dissolver-propeller-2.png",
+            filename = "__alchemical-romance__/graphics/machines/chemical-dissolver/photoshop-archive/hr-chemical-dissolver-propeller-2.png",
             priority = "high",
             width = 23,
             height = 15,
