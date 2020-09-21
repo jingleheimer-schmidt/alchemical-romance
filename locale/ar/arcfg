@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+الكربون - عنصر الكربون/الكربون
+الأكسجين-element=أوكسيجين
+كبريت-عنصر = الكبريت
+الهيدروجين - عنصر الهيدروجين
+الحديد-عنصر الحديد
+تنغستن - عنصر = تنغستن
+النحاس-عنصر=النحاس
+النيتروجين - عنصر النيتروجين
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+عنصر ذهبي=ذهب
+عنصر الزركونيوم/الزركونيوم
+نيكل - element=نيكل
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+عنصر Dysprosium-=Dysprosium
+سيليكون-عنصر = السيليكون
 
-cellulose-compound=Cellulose
+السليولوس-مركون=Cellulose
 malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+الهيدروكسيد-مركب = الهيدروكسيد
+بروتين مركب= البروتين
+ثاني أكسيد السيليكون-المركب=ثاني أكسيد السيليكون
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+واحد emc=EMC:0001
+عشرة emc=EMC:0010
+مائة-emc=EMC:0100
+ألف-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=مغلفة مواد الطاقة
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
+الكربون - element=EMC:0016
+الأكسجين-element=EMC:0008
+كبريفور-element=EMC:0016
+الهيدروجين-element=EMC:0001
+الحديد - element=EMC:0032
 tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
+النحاس-element=EMC:0032
+النتروجين - element=EMC:0016
+سيلنيوم عنصر=EMC:0128
+الذهب عنصر EMC:0256
 dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
+عنصر zirconium-EMC:0256
+نيكل - element=EMC:0032
 gallium-element=EMC:0064
-silicon-element=EMC:0008
+سيليكون-عنصر=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+السليولوز-مركب = C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)(2)
+الهيدروكسيد-المركبة = O-H
+بروتين مركب=C3-H7-N-O2-S
+سيليكون-ديثاني أكسيد المركب=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+حلّ الفحم = حل الفحم
+حل الخشب-الحطب = حل الخشب
+الحديد-ore-dissolving=تفكيك خام الحديد
+النحاس-ore-dissolving=حل خام النحاس
+سمكة-تفكيك الأسماك الخام
+أحجار حل الحجارة
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+السليولوس-حل الخلاصة=حل الخلايا
+malachite-dissolving=Malachite Dissolution
+هيدروكسيد-التفكيك الهيدروكسيدي
+البروتين حل البروتين
+تفكيك ثاني أكسيد السيليكون
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+الجمع بين الفحم=الفحم
+الجمع بين الخشب=خشب
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+خليولوس-الجمع بين الخليلوز=Cellulose
+ملشيت-الجمع
+مزيج الهيدروكسيد-الهيدروكسيد/الهيدروكسيد
+الجمع بين البروتين=البروتين
+مزيج من ثاني أكسيد السليكون=ثنائي أكسيد السيليكون
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+الكيميائية-الرومانس-المجموعة = رومانس الكيميائي
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+الكيميائية-حل - entity=Dissolver
+المركب الكيميائي - الكيان = المركب الكيميائي
+الطاقة المكثفة-كيان = تكثيف الطاقة
+الطاقة-المطور-كيان-مطور الطاقة
 
 [autoplace-control-name]
