@@ -1,80 +1,80 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+carbonio-element=carbonio
+ossigeno-elemento=ossigeno
+zolfo-elemento=zolfo
+idrogeno-elemento=idrogeno
+ferro-element=Ferro
+tungsteno-element=Tungsteno
+rame-elemento=rame
+azoto-elemento=Azoto
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
-nickel-element=Nikel
+oro-elemento=Oro
+zirconio-element=Zirconio
+nichel-element=Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+disprosio-elemento=Disprozio
+silicio-element=Silicio
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+cellulosa-composto=Cellulosa
+malachite-compound=malachite
+idrossido-composto=idrossido
+protein-compound=Proteine
+silicio-diossido-composto=biossido di silicio
 
 one-emc=EMC:0001
 ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+cento-emc=EMC:0100
+mille-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Covalenza di materia energetica
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
+carbone-element=EMC:0016
+ossigeno-element=EMC:0008
+solfore-element=EMC:0016
+idrogeno-elemento=EMC:0001
+ferro-element=EMC:0032
+tungsteno-element=EMC:0128
+ramperelement=EMC:0032
+azoto-elemento=EMC:0016
+selenio-element=EMC:0128
+oro-element=EMC:0256
+disprosio-elemento=EMC:0512
+zirconio-element=EMC:0256
+nichel-element=EMC:0032
+gallio-elemento=EMC:0064
 silicon-element=EMC:0008
 
-cellulose-compound=C6-H10-O5
+composto di cellulosa=C6-H10-O5
 malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
+idrossido-composto=O-H
 protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+silicio-diossido-composto=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
+coal-dissolving=Dissoluzione del carbone
+legno-dissoluzione=Legno dissolto
+iron-ore-dissoluzione=ferro minerale dissoluzione
+ramper-ore-dissoluzione=Minerale di rame dissoluzione
 raw-fish-dissolving=Raw Fish Dissolving
 stone-dissolving=Stone Dissolving
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+dissolvere la cellulosa=Dissoluzione della cellulosa
+malachite-dissolving=Dissoluzione malachite
+idrossido-dissoluzione=Idrossido Dissoluzione
+dissolvere delle proteine=Dissoluzione delle proteine
+silicio-diossido dissoluzione=diossido di silicio dissoluzione
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+carbone-combinazione=Carbone
+legno-combinazione=Legno
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+cellulosa-combinazione=Cellulosa
+malachite-combinazione=malachite
+idrossido-combinazione=idrossido
+protein-combining=Proteine
+diossido di silicio=diossido di silicio
 
 [technology-name]
 
@@ -83,8 +83,8 @@ alchemical-romance-group=Alchemical Romance
 
 [entity-name]
 chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+chimico-combinatore-entità=Combinatore chimico
+energy condenser-entity=Energy Condenser
+energia-sviluppatore-entity=Energy Developer
 
 [autoplace-control-name]
