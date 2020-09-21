@@ -118,32 +118,32 @@ local stoneDissolving = {
     allow_decomposition = "false"
 }
 
-local crudeOilDissolving = {
-    type = "recipe",
-    name = "crude-oil-dissolving",
-    icon = "__alchemical-romance__/graphics/recipes/crude-oil-dissolving.png",
-    icon_size = 128,
-    subgroup = "fluid-dissolving",
-    ingredients = {
-        {type="fluid", name="crude-oil", amount=10}
-    },
-    results = {
-        {type="item", name="carbon-element", amount=4},
-        {type="item", name="hydrogen-element", amount=1},
-        {type="item", name="nitrogen-element", amount=1, probability=.1},
-        {type="item", name="sulfur-element", amount=1, probability=.1},
-        {type="item", name="oxygen-element", amount=1, probability=.1}
-        -- + 4x16   =   64 EMC
-        -- + 1x1    =   1 EMC
-        -- + .1x16  =   1.6 EMC
-        -- + .1x16  =   1.6 EMC
-        -- + .1x8   =   .8 EMC
-        --          =   69 EMC
-    },
-    category = "dissolving",
-    energy_required = 1,
-    allow_decomposition = "false"
-}
+-- local crudeOilDissolving = {
+--     type = "recipe",
+--     name = "crude-oil-dissolving",
+--     icon = "__alchemical-romance__/graphics/recipes/crude-oil-dissolving.png",
+--     icon_size = 128,
+--     subgroup = "fluid-dissolving",
+--     ingredients = {
+--         {type="fluid", name="crude-oil", amount=10}
+--     },
+--     results = {
+--         {type="item", name="carbon-element", amount=4},
+--         {type="item", name="hydrogen-element", amount=1},
+--         {type="item", name="nitrogen-element", amount=1, probability=.1},
+--         {type="item", name="sulfur-element", amount=1, probability=.1},
+--         {type="item", name="oxygen-element", amount=1, probability=.1}
+--         -- + 4x16   =   64 EMC
+--         -- + 1x1    =   1 EMC
+--         -- + .1x16  =   1.6 EMC
+--         -- + .1x16  =   1.6 EMC
+--         -- + .1x8   =   .8 EMC
+--         --          =   69 EMC
+--     },
+--     category = "dissolving",
+--     energy_required = 1,
+--     allow_decomposition = "false"
+-- }
 
 --== Dissolving Recipes ==--
     --== Compounds ==--
@@ -254,7 +254,7 @@ data:extend({
   rawFishDissolving,
   stoneDissolving,
     --== Fluids ==--
-  crudeOilDissolving,
+  -- crudeOilDissolving,
     --== Items ==--
 
   --== Dissolving Recipies ==--
