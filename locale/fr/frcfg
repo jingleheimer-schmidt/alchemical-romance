@@ -1,80 +1,80 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
-tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+élément carbone=carbone
+oxygène-élément=Oxygène
+soufre-élément=soufre
+hydrogène-élément=hydrogène
+fer-élément=Fer
+élément=Tungstène
+cuivre-élément=Cuivre
+Élément-azote=Azote
 selenium-element=Selenium
-gold-element=Gold
+élément-or=Or
 zirconium-element=Zirconium
 nickel-element=Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+dyprosium=Dysprosium
+silicon-élément=silicone
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+composé de cellulose=Cellulose
+malachite=Malachite
+hydroxide-compound=Hydroxyde
+protéine composée=Protéine
+silicon-dioxide-composound=Dioxyde de silicium
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+uneemc=EMC:0001
+dix-emc=EMC:0010
+cent-emc=EMC:0100
+millier-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Covalence de la matière énergétique
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
-sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
+élément-carbone=EMC:0016
+élément-oxygène=EMC:0008
+soufur-élément=EMC:0016
+hydrogène-élément=EMC:0001
 iron-element=EMC:0032
-tungsten-element=EMC:0128
-copper-element=EMC:0032
-nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
+élément=EMC:0128
+élément-cuivre=EMC:0032
+Nitrogène-élément=EMC:0016
+élément-sélénium =EMC:0128
+element=EMC:0256
+dyprosium-element=EMC:0512
 zirconium-element=EMC:0256
 nickel-element=EMC:0032
-gallium-element=EMC:0064
+élément=EMC:0064
 silicon-element=EMC:0008
 
-cellulose-compound=C6-H10-O5
+composé de cellulose=C6-H10-O5
 malachite-compound=Cu2-C-O3-(OH)2
 hydroxide-compound=O-H
 protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+silicon-dioxide-composound=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+coal-dissolving=Dissolution du charbon
+dissoudre le bois=Dissolution du bois
+fer-ore-dissolving=Dissolution de minerai de fer
+dissoudre le minerai de cuivre=Dissolution du minerai de cuivre
+dissoudre le poisson crue=Dissolution du poisson cru
+format@@0 stone-dissolving=Stone Dissolving
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+dissoudre la cellulose=dissoudre la cellulose
+dissoudre malachite=Dissolution de malachite
+hydroxide-dissolving=Dissolution d'hydroxyde
+dissolution des protéines=Dissolution des protéines
+silicon-dioxide-dissolving=Dioxyde de silicium
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+combinaison=Charbon
+combinaison=Bois
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+combinaison de cellulose=Cellulose
+combinaison de malachite=Malachite
+hydroxide-combining=Hydroxyde
+combinaison de protéines =Protéine
+silicon-dioxide-combining=Dioxyde de silicium
 
 [technology-name]
 
@@ -82,9 +82,9 @@ silicon-dioxide-combining=Silicon Dioxide
 alchemical-romance-group=Alchemical Romance
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+chimique-dissolver-entity=Dissolver chimique
+chimique-combiner-entité=Combiner des produits chimiques
+énergie-condenseur-entity=Condenseur d'énergie
+energy-developer-entity=Développeur d'énergie
 
 [autoplace-control-name]
