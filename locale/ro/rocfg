@@ -1,90 +1,90 @@
 [item-name]
-carbon-element=Carbon
-oxygen-element=Oxygen
-sulfur-element=Sulfur
-hydrogen-element=Hydrogen
-iron-element=Iron
+carbon element=carbon
+oxigen=Oxigen
+sulfur-element=Sulf
+hidrogen-element=hidrogen
+element fier=Fier
 tungsten-element=Tungsten
-copper-element=Copper
-nitrogen-element=Nitrogen
+cupru = cupru
+Nitrogen-element=azot
 selenium-element=Selenium
-gold-element=Gold
-zirconium-element=Zirconium
+aur=Aur
+zirconiu element=Zirconiu
 nickel-element=Nikel
 gallium-element=Gallium
-dysprosium-element=Dysprosium
-silicon-element=Silicon
+disprosium = Disprosiu
+element de silicon=Silicon
 
-cellulose-compound=Cellulose
-malachite-compound=Malachite
-hydroxide-compound=Hydroxide
-protein-compound=Protein
-silicon-dioxide-compound=Silicon Dioxide
+compuşi celulozici=Celuloză
+malachit-compus=Malachite
+hidroxid-compus=Hidroxid
+compuşi proteici =proteine
+compusul de silicon-dioxidă=silicon Dioxid
 
-one-emc=EMC:0001
-ten-emc=EMC:0010
-hundred-emc=EMC:0100
-thousand-emc=EMC:1000
+un emc=EMC:0001
+zece emc=EMC:0010
+sute, emc=EMC:0100
+mii-emc=EMC:1000
 
 [fluid-name]
-emc=Energy Matter Covalence
+emc=Covalența materiei energetice
 
 [item-description]
-carbon-element=EMC:0016
-oxygen-element=EMC:0008
+carbon element=EMC:0016
+oxigen element=EMC:0008
 sulfur-element=EMC:0016
-hydrogen-element=EMC:0001
-iron-element=EMC:0032
+hidrogen-element=EMC:0001
+elemente de fier=EMC:0032
 tungsten-element=EMC:0128
-copper-element=EMC:0032
+element-cupru=EMC:0032
 nitrogen-element=EMC:0016
-selenium-element=EMC:0128
-gold-element=EMC:0256
-dysprosium-element=EMC:0512
-zirconium-element=EMC:0256
-nickel-element=EMC:0032
-gallium-element=EMC:0064
-silicon-element=EMC:0008
+seleniu-element=EMC:0128
+aur-element=EMC:0256
+diprosium-element=CEM:0512
+zirconiu element=EMC:0256
+nichel-element=EMC:0032
+galiu-element=EMC:0064
+elemente de silicon=EMC:0008
 
-cellulose-compound=C6-H10-O5
-malachite-compound=Cu2-C-O3-(OH)2
-hydroxide-compound=O-H
-protein-compound=C3-H7-N-O2-S
-silicon-dioxide-compound=Si-O2
+(compuşi de celuloză=C6-H10-O5
+compuşi malahitici=Cu2-C-O3-(OH)2
+hidroxid-compus=O-H
+compuşi proteici=C3-H7-N-O2-S
+compuşi de silicon-dioxidă=Si-O2
 
 [recipe-name]
-coal-dissolving=Coal Dissolving
-wood-dissolving=Wood Dissolving
-iron-ore-dissolving=Iron Ore Dissolving
-copper-ore-dissolving=Copper Ore Dissolving
-raw-fish-dissolving=Raw Fish Dissolving
-stone-dissolving=Stone Dissolving
+dizolvarea cărbunelui=dizolvarea cărbunelui
+dizolvarea lemnului=dizolvarea lemnului
+dizolvare fier-ore-fier=Dizolvarea minereului de fier
+dizolvarea cuprului=Minereul de cupru
+Dizolvarea peștelui brut=Dizolvarea peștelui brut
+dizolvare piatră=Dizolvare de piatră
 
-cellulose-dissolving=Cellulose Dissolving
-malachite-dissolving=Malachite Dissolving
-hydroxide-dissolving=Hydroxide Dissolving
-protein-dissolving=Protein Dissolving
-silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+dizolvarea celulozei=Dizolvarea celulozei
+dizolvare defectuoasă=Dizolvare malahită
+dizolvare hidroxidică=Dizolvare hidroxid
+dizolvarea proteinelor=dizolvarea proteinelor
+dizolvarea dioxidului de silicon-dioxidă=Dioxid de siliciu
 
 [combining-recipe-name]
-coal-combining=Coal
-wood-combining=Wood
+combinare cărbune=cărbune
+Combinarea lemnului=Lemn
 
-cellulose-combining=Cellulose
-malachite-combining=Malachite
-hydroxide-combining=Hydroxide
-protein-combining=Protein
-silicon-dioxide-combining=Silicon Dioxide
+combinarea celulozei=Celuloză
+combinarea malachitei=Malachite
+combinaţia hidroxide=Hidroxid
+combinaţia de proteine=proteine
+combinația de silicon-dioxidă=Silicon Dioxid
 
 [technology-name]
 
 [item-group-name]
-alchemical-romance-group=Alchemical Romance
+grupa alchimicală - romance-romance-=Alchimic Romance
 
 [entity-name]
-chemical-dissolver-entity=Chemical Dissolver
-chemical-combiner-entity=Chemical Combiner
-energy-condenser-entity=Energy Condenser
-energy-developer-entity=Energy Developer
+Chimical-dissolver-entity=Dissolver chimic
+Combinator-chimical=Combinator chimic
+condenser-entitate=Condenser Energy
+developer-entity=Energy Developer
 
 [autoplace-control-name]
