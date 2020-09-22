@@ -1,0 +1,90 @@
+[item-name]
+carbo-element=Carbono
+elemento-oxígeno=oxígeno
+ulfuro-element=Azufre
+hidrógeno-element=Hídrogeno
+elemento=hierro
+tungsten-element=Tungsten
+cobre-element=Cobre
+elemento-nitrogeno=Nitrógeno
+selenium-element=Selenium
+oro-elemento=oro
+zirconio-element=Zirconio
+níquel-element=Nikel
+gallium-element=Gallium
+disprosio-elemento=Disprosio
+silicio-element=silicio
+
+celulosa-compound=Celulosa
+malaquita-compound=Malaquita
+hidroxide-compound=Hilroxida
+proteína-compuesto=proteína
+compuesto de silicio-dioxido=Dióxido de silicio
+
+une-emc=EMC:0001
+decena-emc=EMC:0010
+centena-emc=EMC:0100
+millar-emc=EMC:1000
+
+[fluid-name]
+emc=Covalencia de la materia energética
+
+[item-description]
+elemento-carbo=EMC:0016
+elemento-oxígeno=EMC:0008
+sulfur-element=EMC:0016
+elemento-hidrógeno=EMC:0001
+plano-element=EMC:0032
+tungsten-element=EMC:0128
+elemento-cobre=EMC:0032
+elemento-nitrogen=EMC:0016
+elemento-selenio=EMC:0128
+oro-element=EMC:0256
+elemento-disprosio=EMC:0512
+elemento-zirconio=EMC:0256
+nickel-element=EMC:0032
+elemento-gallio=EMC:0064
+elemento-silicón=EMC:0008
+
+celulosa-compound=C6-H10-O5
+malaquita-compound=Cu2-C-O3-(OH)2
+hidroxide-compuesto=O-H
+proteína-compound=C3-H7-N-O2-S
+silicio-dioxida-compuesto=Si-O2
+
+[recipe-name]
+disolver carbón=Disolución de carbón
+disolver madera=Disolver madera
+disolver hierro oro=Disolver mineral de hierro
+disolver cobre-ore-disolver=Disolver mineral de cobre
+disolver peces crudos=Disolver peces crudos
+disolver piedra=Disolver piedra
+
+celulosa-disolving=Disolución de celulosa
+disolver malaquita=Disolver malaquita
+disolver hidroxide-disuelto=Disolución de hiroxida
+disolver proteínas=Disolver proteínas
+disolving=Disolver silicio-dioxide=Disolver dióxido de silicio
+
+[combining-recipe-name]
+combinando-carbón=Carbón
+combinación=Madera
+
+celulosa-combinación=Celulosa
+malaquita-combinación=Malaquita
+hidroxide-combining=Hilroxida
+proteina-combining=Proteína
+combinación de silicio-dioxide-silicio = Dióxido de silicio
+
+[technology-name]
+
+[item-group-name]
+alquímica-romance-group=Romance alquímico
+
+[entity-name]
+entidad-disolver-químico=Disolver químico
+combinador-químico=Combinador químico
+energía-condensador-entity=Condenador de energía
+energía-desarrollador-entity=Desarrollador de energía
+
+[autoplace-control-name]

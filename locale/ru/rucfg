@@ -1,0 +1,90 @@
+[item-name]
+carbon-element=углеродный
+кислородный элемент=кислород
+sulfur-element=сера
+водород-элемент=водород
+железо-элемент=железо
+tungsten-element=Tungsten
+меди-элемент=меди
+азот-элемент=азоты
+selenium-element=Selenium
+gold-элемент=золото
+zirconium-элемент=цирконий
+никель-элемент=Никель
+gallium-element=Gallium
+диспрозий-элемент=диспрозий
+silicon-элемент=Silicon
+
+целлюлоза-соединение=Целлюлоза
+malachite-compound=Малахит
+гидроксид-соединение=Гидроксид
+белковая смесь=белок
+силикон-диоксид соединения=силиконовый диоксид
+
+one-emc=EMC:0001
+ten-emc=EMC:0010
+100-emc=EMC:0100
+тысячи emc=EMC:1000
+
+[fluid-name]
+emc=Энергетическая Ковалерия
+
+[item-description]
+carbon-element=EMC:0016
+oxygen-element=EMC:0008
+sulfur-element=EMC:0016
+водород элемент=EMC:0001
+iron-element=EMC:0032
+tungsten-element=EMC:0128
+copper-element=EMC:0032
+nitrogen-element=EMC:0016
+selenium-element=EMC:0128
+gold-element=EMC:0256
+диспрозий-элемент=EMC:0512
+zirconium-элемент=EMC:0256
+nickel-element=EMC:0032
+gallium-element=EMC:0064
+silicon-element=EMC:0008
+
+целлюлоз-соединение=С6-Н10-О5
+malachite-compound=Cu2-C-O3-(OH)2
+hydroxide-compound=O-H
+protein-compound=C3-H7-N-O2-S
+silicon-dioxide-compound=Si-O2
+
+[recipe-name]
+угольная растворителя=Раствор угля
+древесно-растворение=Растворение дерева
+железо-рудное растворение=Железный раствор
+медная руда-растворение=Раствор медной руды
+растворение рыбы=Сырая рыба
+растворение камня =Распаление камня
+
+целлюлоза-растворителя=Растворение клеток
+Malachite Dissolving=Malachite
+гидроксид-растворение=Гидроксид Растворение
+protein-dissolving=Растворение белка
+silicon-dioxid-dissolving=Silicon Dioxide Растворение
+
+[combining-recipe-name]
+угольная комбинация=уголь
+комбинация дерева=дерево
+
+целлюлоза-комбинация=Целлюлоза
+malachite-combining=Malachite
+гидроксидная комбинация=Гидроксид
+белковая комбинация=белок
+silicon-dioxid-комбинация = Силиконовый диоксид
+
+[technology-name]
+
+[item-group-name]
+алхимико-романтическая группа=Алхимический романс
+
+[entity-name]
+химическое-диссольверное образование=Химический раствор
+химический комбинатор=Химический комбинат
+конденсатор энергии=Энергетический конденсатор
+энергоразработчик-сущность=Энергетический разработчик
+
+[autoplace-control-name]

@@ -1,0 +1,90 @@
+[item-name]
+kol-element=Kol
+syre-element=Syre
+svavel-element=Svavel
+väte-element=Väte
+järn-element=Järn
+Volfram-element=Volfram
+koppar-element=Koppar
+kväve-element=Kväve
+selenium-element=Selenium
+Guldelement=Guld
+zirkonium-element=zirkonium
+nickel-element=Nikel
+gallium-element=Gallium
+dysprosium-element=Dysprosium
+silikon-element=Silicon
+
+cellulosa-förening=Cellulosa
+malakit-förening=Malakit
+hydroxid-förening=Hydroxid
+protein-förening=Protein
+kiseldioxid-förening=kiseldioxid
+
+en-emc=EMC:0001
+tio-emc=EMC:0010
+hundra-emc=EMC:0100
+tusenemc=EMC:1000
+
+[fluid-name]
+emc=Energi kovalens
+
+[item-description]
+kol-element=EMC:0016
+syre-element=EMC:0008
+svavel-element=EMC:0016
+väte-element=EMC:0001
+järn-element=EMC:0032
+Volfram-element=EMC:0128
+koppar-element=EMC:0032
+nitrogen-element=EMC:0016
+selen-element=EMC:0128
+Guld-element=EMC:0256
+dysprosium-element=EMC:0512
+zirkonium-element=EMC:0256
+nickel-element=EMC:0032
+gallium-element=EMC:0064
+silikon-element=EMC:0008
+
+cellulosa-förening=C6-H10-O5
+malakit-förening=Cu2-C-O3-(OH)2
+hydroxid-förening=O-H
+protein-compound=C3-H7-N-O2-S
+kiseldioxid-förening=Si-O2
+
+[recipe-name]
+kolupplösning=Kol upplösning
+trä-upplösning=Träupplösning
+järnmalmsupplösning=Järnmalm upplösning
+koppar-malm upplösning=Kopparmalm upplösning
+råfisk-upplösning=Rå fisk upplösning
+stenupplösning=Stenupplösning
+
+cellulosa-upplösning=Cellulosa upplösning
+malakit-upplösning = Malakit upplösning
+hydroxid-upplösning=Hydroxid upplösning
+proteinupplösning=Proteinupplösning
+kiseldioxid-upplösning=kiseldioxid upplösning
+
+[combining-recipe-name]
+kol-kombination=Kol
+trä-kombination=Trä
+
+cellulosa-kombination=Cellulosa
+malakita-kombination=Malakit
+hydroxid-kombination=Hydroxid
+protein-combining=Protein
+kiseldioxid-kombination=kiseldioxid
+
+[technology-name]
+
+[item-group-name]
+alkemisk-romantisk-grupp=Alkemisk Romans
+
+[entity-name]
+kemisk-upplösande-entity=Kemisk Upplösare
+kemisk-kombinera-entity=Kemisk Kombinatör
+energi-kondenser-enhet=Energikondensor
+energi-utvecklare-enhet=Energiutvecklare
+
+[autoplace-control-name]

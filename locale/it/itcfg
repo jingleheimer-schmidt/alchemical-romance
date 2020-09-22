@@ -1,0 +1,90 @@
+[item-name]
+carbonio-element=carbonio
+ossigeno-elemento=ossigeno
+zolfo-elemento=zolfo
+idrogeno-elemento=idrogeno
+ferro-element=Ferro
+tungsteno-element=Tungsteno
+rame-elemento=rame
+azoto-elemento=Azoto
+selenium-element=Selenium
+oro-elemento=Oro
+zirconio-element=Zirconio
+nichel-element=Nikel
+gallium-element=Gallium
+disprosio-elemento=Disprozio
+silicio-element=Silicio
+
+cellulosa-composto=Cellulosa
+malachite-compound=malachite
+idrossido-composto=idrossido
+protein-compound=Proteine
+silicio-diossido-composto=biossido di silicio
+
+one-emc=EMC:0001
+ten-emc=EMC:0010
+cento-emc=EMC:0100
+mille-emc=EMC:1000
+
+[fluid-name]
+emc=Covalenza di materia energetica
+
+[item-description]
+carbone-element=EMC:0016
+ossigeno-element=EMC:0008
+solfore-element=EMC:0016
+idrogeno-elemento=EMC:0001
+ferro-element=EMC:0032
+tungsteno-element=EMC:0128
+ramperelement=EMC:0032
+azoto-elemento=EMC:0016
+selenio-element=EMC:0128
+oro-element=EMC:0256
+disprosio-elemento=EMC:0512
+zirconio-element=EMC:0256
+nichel-element=EMC:0032
+gallio-elemento=EMC:0064
+silicon-element=EMC:0008
+
+composto di cellulosa=C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)2
+idrossido-composto=O-H
+protein-compound=C3-H7-N-O2-S
+silicio-diossido-composto=Si-O2
+
+[recipe-name]
+coal-dissolving=Dissoluzione del carbone
+legno-dissoluzione=Legno dissolto
+iron-ore-dissoluzione=ferro minerale dissoluzione
+ramper-ore-dissoluzione=Minerale di rame dissoluzione
+raw-fish-dissolving=Raw Fish Dissolving
+stone-dissolving=Stone Dissolving
+
+dissolvere la cellulosa=Dissoluzione della cellulosa
+malachite-dissolving=Dissoluzione malachite
+idrossido-dissoluzione=Idrossido Dissoluzione
+dissolvere delle proteine=Dissoluzione delle proteine
+silicio-diossido dissoluzione=diossido di silicio dissoluzione
+
+[combining-recipe-name]
+carbone-combinazione=Carbone
+legno-combinazione=Legno
+
+cellulosa-combinazione=Cellulosa
+malachite-combinazione=malachite
+idrossido-combinazione=idrossido
+protein-combining=Proteine
+diossido di silicio=diossido di silicio
+
+[technology-name]
+
+[item-group-name]
+alchemical-romance-group=Alchemical Romance
+
+[entity-name]
+chemical-dissolver-entity=Chemical Dissolver
+chimico-combinatore-entità=Combinatore chimico
+energy condenser-entity=Energy Condenser
+energia-sviluppatore-entity=Energy Developer
+
+[autoplace-control-name]

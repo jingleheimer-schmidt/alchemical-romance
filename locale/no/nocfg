@@ -1,0 +1,90 @@
+[item-name]
+karbon-element=Carbon
+oksygen-element=Oxygen
+svovelelement=Sulfur
+hydrogenelement=Hydrogen
+jernelement=Jern
+Halvdel=Tungsten
+kobberelement=kobber
+nitrogenelement=Nitrogen
+selenium-element=Selenium
+gullelement=Gull
+zirconium-element=Zirconium
+nikkel-element=Nikel
+gallium-element=Gallium
+dysprosium-element=Dysprosium
+silikonelement=Silicon
+
+celluloseforbindelse=Cellulose
+Malachite-compound=Malachite
+hydroksid-forbindelse =Hydroksidid
+protein-forbindelse=protein
+silikondioksid-forbindelse = Silikondioksid.
+
+enkeltemc=EMC:0001
+ten-emc=EMC:0010
+hundred-emc=EMC:0100
+thousand-emc=EMC:1000
+
+[fluid-name]
+emc=Covalence Energy Matter
+
+[item-description]
+karbohydrat-element=EMC:0016
+oksygen-element=EMC:0008
+sulfur-element=EMC:0016
+hydrogenelement=EMC:0001
+iron-element=EMC:0032
+tungt element=EMC:0128
+kobberelement=EMC:0032
+nitrogenelement=EMC:0016
+selenium-element=EMC:0128
+gold-element=EMC:0256
+dysprosium-element=EMC:0512
+zirconium-element=EMC:0256
+nikkel-element=EMC:0032
+gallium-element=EMC:0064
+silikonelement=EMC:0008
+
+celluloseforbindelse=C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)2
+hydroksid-substans=O-H
+protein-forbindelse=C3-H7-N-O2-S
+silikon-dioksid-forbindelse = Si-O2
+
+[recipe-name]
+ko-oppløst =Coal oppløsing
+Oppløse tre=Oppløsning
+jern-ore-oppløsning=Jern Mal-Oppløsning
+kobber-ore-oppløst =kobber Ore Oppløsning
+raw-fish-dissolving=Rå Fiskesaldring
+løs stein=Stein Oppløsning
+
+celluloseoppløsning=Cellulose Oppløsning
+løse opp malachite-dissolving=Malachite
+Oppløst hydroksid=hydroksyl Oppløsning
+protein-oppløsning=protein Oppløsning
+silikondioksid-oppløst = silikonutløst dioksidløsning
+
+[combining-recipe-name]
+ko-kombinasjon=Kull
+trekombinering = tre
+
+cellulosekombiner=Cellulose
+kombinasjoner med malachit=Malachite
+hydroksidkombinering=Hydroksid/hydroksid
+proteinkombinering=Proteiner
+silikon-dioksid-kombinasjon=Silikondioksid.
+
+[technology-name]
+
+[item-group-name]
+alkjemisk romantikkgrupp=Alkjemisk Romance
+
+[entity-name]
+kjemisk oppløst vert-entity=Kjemisk oppløsning-
+Kjemisk kombinerer-enhet=Kjemisk Kombinasjon
+energidenser-enhet=Energy Condenser
+energiutvikler-enhet=Energiutvikler
+
+[autoplace-control-name]

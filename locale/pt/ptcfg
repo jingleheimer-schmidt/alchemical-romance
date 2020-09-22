@@ -1,0 +1,90 @@
+[item-name]
+carboidrato=carbono
+oxigênio-element=Oxigênio
+sulfur-element=Enxofre
+Hidrogênio-elemento=Hidrogênio
+elemento-irão=Ferro
+tungsten-element=Tungstênio
+cobre-element=Cobre
+nitrogênio-elemento=Nitrogênio
+selenium-element=Selenium
+Ouro-element=Ouro
+zirconium-element=Zirconium
+elemento-níquel=Nikel
+gallium-element=Gallium
+disprosium-element=Dysprosium
+silicon-element=Silicon
+
+celulose-composto=celulose
+malachite-compound=Malaquita
+Composto-hidroxide=Hidroxide
+proteína-composta=Proteína
+silicon-composto-anidrido=Dióxido de ilicone
+
+one-emc=EMC:0001
+dez-emc=EMC:0010
+centena-emc=EMC:0100
+thousand-emc=EMC:1000
+
+[fluid-name]
+emc=Matéria de Energia Covalência
+
+[item-description]
+carbonoelement=EMC:0016
+oxigênio-element=EMC:0008
+sulfur-element=EMC:0016
+Eleto-hidrogénio=EMC:0001
+ironelement=EMC:0032
+tungsten-element=EMC:0128
+copper-element=EMC:0032
+nitrogênio-element=EMC:0016
+selenium-element=EMC:0128
+ouro-element=EMC:0256
+disprosium-element=EMC:0512
+zirconium-element=EMC:0256
+níquel-element=EMC:0032
+gallium-element=EMC:0064
+silicon-element=EMC:0008
+
+celulose-compound=C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)2
+hidroxide-compound=O-H
+protein-compound=C3-H7-N-O2-S
+silicon-composto-anidrido=Si-O2
+
+[recipe-name]
+dissolvente-carvão=Dissolução de Carvão
+dissolvente-madeira=dissolução de madeira
+dissolu-ferro-dissolvido=dissolução de minério de ferro
+dissolvência de cobre--ore-= Dissolução de Minério de Cobre
+dissolvência de peixe-raw-= Dissolução de Peixe Cru
+dissolvência de pedra=Dissolvedor
+
+dissolvência celular=dissolução celular
+malachite-dissolving=Dissolução de Malaquita
+Dessolução de hidroxide=Hidroxide
+dissolvência proteica=dissolução de proteínas
+dissolvência de silicon-dioxias=Dissolução de Dióxido de Silício
+
+[combining-recipe-name]
+combinação-carvão=Carvão
+madeira combinando=madeira
+
+combinação cellulose-=celulose
+malachite-combining=Malaquita
+Combinação de hidroxide=Hidroxide
+proteína-combinação=Proteína
+combinação de dioxinas-silicon=Dióxido de Silício
+
+[technology-name]
+
+[item-group-name]
+alquímico-romance-grupo=Romance Alquímico
+
+[entity-name]
+dissolver químico-dissolvido=Dissolver químico
+químico-combiner-entity=Combinador Químico
+energia-condensador-entidade=Condensador de Energia
+desenvolvedor-energia-desenvolvedor=Desenvolvedor de Energia
+
+[autoplace-control-name]

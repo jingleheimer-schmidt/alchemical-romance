@@ -1,0 +1,90 @@
+[item-name]
+pierwiastek węgla = węgiel
+tlen pierwiastek = tlen
+pierwiastek siarki=Siarka
+wodoro-pierwiastek = wodór
+żelazo-pierwiastek = żelazo
+element wolframu = wolfram,
+miedzi-element = miedź
+pierwiastek azotu=azot
+selenium-element=Selenium
+element gold-element=Złoto
+pierwiastek cyrkonowy = cyrkonowy
+nikiel = Nikel
+gallium-element=Gallium
+pierwiastek dysprozu = Dysproz
+krzemionka = krzemionka
+
+celuloza związek = celuloza
+związek malachitowy = malachit
+wodorotlenek = wodorotlenek
+związek białkowy = białko
+Związek ditlenku krzemu = Tlenek krzemu
+
+Jedno-emc=EMC:0001
+ten-emc=EMC:0010
+sto emc=EMC:0100
+tysiąc emc=EMC:1000
+
+[fluid-name]
+emc=kowalencja w zakresie energii
+
+[item-description]
+pierwiastek węgla = EMC:0016
+tlen-pierwiastek = EMC:0008
+sulfur-element=EMC:0016
+wodoro-pierwiastek = EMC:0001
+żelazo-element=EMC:0032
+element wolframowy = EMC:0128
+miedziana = EMC:0032
+pierwiastek azotu=EMC:0016
+pierwiastek selenu = EMC:0128
+gold-element=EMC:0256
+pierwiastek dysprozu = EMC:0512
+pierwiastek cyrkonowy = EMC:0256
+nikiel = EMC:0032
+pierwiastek galu=EMC:0064
+pierwiastek krzemu=EMC:0008
+
+związek celulozowy=C6-H10-O5
+związek malachitowy = Cu2-C-O3-(OH)2
+wodorotlenek = O-H
+związek białkowy = C3-H7-N-O2-S
+związek z ditlenkiem krzemu = Si-O2
+
+[recipe-name]
+Rozpuszczanie węgla = Rozpuszczanie węgla
+rozpuszczanie drewna = Rozpuszczanie Drewna
+Rozpuszczanie rudy żelaza = Rozpuszczanie rudy żelaza
+Rozpuszczanie rudy miedzi=Rozpuszczanie Ruda miedzi
+Rozpuszczanie ryb z ryb = Rozpuszczanie surowych ryb
+rozpuszczanie kamienne=Rozpuszczanie kamienia
+
+rozpuszczanie celulozy = Rozpuszczanie celulozy
+rozpuszczanie malachitów = rozpuszczanie malachitów
+Rozpuszczanie wodorotlenku = Rozpuszczanie wodorotlenku
+Rozpuszczanie białka
+Rozpuszczanie ditlenku krzemu = Rozpuszczanie ditlenku krzemu
+
+[combining-recipe-name]
+Połączenie węgla = Węgiel
+drewno łączące = Drewno
+
+celuloza łączona = celuloza
+malachit-combining=malachite
+połączenie wodorotlenków = wodorotlenek
+połączenie białek = białko
+połączenie dwutlenku krzemu=ditlenek krzemu
+
+[technology-name]
+
+[item-group-name]
+Grupa alchemiczna-romanna- = alchemiczna romancja
+
+[entity-name]
+Rozpuszczalnik chemiczny = Rozpuszczalnik chemiczny
+chemiczny-kombinator-entity=Chemical Combiner
+Elektrownia skraplająca energię=Elektryczna kondensator
+Energia-developer-entity=Deweloper
+
+[autoplace-control-name]

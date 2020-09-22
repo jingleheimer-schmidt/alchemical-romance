@@ -1,0 +1,90 @@
+[item-name]
+élément carbone=carbone
+oxygène-élément=Oxygène
+soufre-élément=soufre
+hydrogène-élément=hydrogène
+fer-élément=Fer
+élément=Tungstène
+cuivre-élément=Cuivre
+Élément-azote=Azote
+selenium-element=Selenium
+élément-or=Or
+zirconium-element=Zirconium
+nickel-element=Nikel
+gallium-element=Gallium
+dyprosium=Dysprosium
+silicon-élément=silicone
+
+composé de cellulose=Cellulose
+malachite=Malachite
+hydroxide-compound=Hydroxyde
+protéine composée=Protéine
+silicon-dioxide-composound=Dioxyde de silicium
+
+uneemc=EMC:0001
+dix-emc=EMC:0010
+cent-emc=EMC:0100
+millier-emc=EMC:1000
+
+[fluid-name]
+emc=Covalence de la matière énergétique
+
+[item-description]
+élément-carbone=EMC:0016
+élément-oxygène=EMC:0008
+soufur-élément=EMC:0016
+hydrogène-élément=EMC:0001
+iron-element=EMC:0032
+élément=EMC:0128
+élément-cuivre=EMC:0032
+Nitrogène-élément=EMC:0016
+élément-sélénium =EMC:0128
+element=EMC:0256
+dyprosium-element=EMC:0512
+zirconium-element=EMC:0256
+nickel-element=EMC:0032
+élément=EMC:0064
+silicon-element=EMC:0008
+
+composé de cellulose=C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)2
+hydroxide-compound=O-H
+protein-compound=C3-H7-N-O2-S
+silicon-dioxide-composound=Si-O2
+
+[recipe-name]
+coal-dissolving=Dissolution du charbon
+dissoudre le bois=Dissolution du bois
+fer-ore-dissolving=Dissolution de minerai de fer
+dissoudre le minerai de cuivre=Dissolution du minerai de cuivre
+dissoudre le poisson crue=Dissolution du poisson cru
+format@@0 stone-dissolving=Stone Dissolving
+
+dissoudre la cellulose=dissoudre la cellulose
+dissoudre malachite=Dissolution de malachite
+hydroxide-dissolving=Dissolution d'hydroxyde
+dissolution des protéines=Dissolution des protéines
+silicon-dioxide-dissolving=Dioxyde de silicium
+
+[combining-recipe-name]
+combinaison=Charbon
+combinaison=Bois
+
+combinaison de cellulose=Cellulose
+combinaison de malachite=Malachite
+hydroxide-combining=Hydroxyde
+combinaison de protéines =Protéine
+silicon-dioxide-combining=Dioxyde de silicium
+
+[technology-name]
+
+[item-group-name]
+alchemical-romance-group=Alchemical Romance
+
+[entity-name]
+chimique-dissolver-entity=Dissolver chimique
+chimique-combiner-entité=Combiner des produits chimiques
+énergie-condenseur-entity=Condenseur d'énergie
+energy-developer-entity=Développeur d'énergie
+
+[autoplace-control-name]

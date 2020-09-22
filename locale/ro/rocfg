@@ -1,0 +1,90 @@
+[item-name]
+carbon element=carbon
+oxigen=Oxigen
+sulfur-element=Sulf
+hidrogen-element=hidrogen
+element fier=Fier
+tungsten-element=Tungsten
+cupru = cupru
+Nitrogen-element=azot
+selenium-element=Selenium
+aur=Aur
+zirconiu element=Zirconiu
+nickel-element=Nikel
+gallium-element=Gallium
+disprosium = Disprosiu
+element de silicon=Silicon
+
+compuşi celulozici=Celuloză
+malachit-compus=Malachite
+hidroxid-compus=Hidroxid
+compuşi proteici =proteine
+compusul de silicon-dioxidă=silicon Dioxid
+
+un emc=EMC:0001
+zece emc=EMC:0010
+sute, emc=EMC:0100
+mii-emc=EMC:1000
+
+[fluid-name]
+emc=Covalența materiei energetice
+
+[item-description]
+carbon element=EMC:0016
+oxigen element=EMC:0008
+sulfur-element=EMC:0016
+hidrogen-element=EMC:0001
+elemente de fier=EMC:0032
+tungsten-element=EMC:0128
+element-cupru=EMC:0032
+nitrogen-element=EMC:0016
+seleniu-element=EMC:0128
+aur-element=EMC:0256
+diprosium-element=CEM:0512
+zirconiu element=EMC:0256
+nichel-element=EMC:0032
+galiu-element=EMC:0064
+elemente de silicon=EMC:0008
+
+(compuşi de celuloză=C6-H10-O5
+compuşi malahitici=Cu2-C-O3-(OH)2
+hidroxid-compus=O-H
+compuşi proteici=C3-H7-N-O2-S
+compuşi de silicon-dioxidă=Si-O2
+
+[recipe-name]
+dizolvarea cărbunelui=dizolvarea cărbunelui
+dizolvarea lemnului=dizolvarea lemnului
+dizolvare fier-ore-fier=Dizolvarea minereului de fier
+dizolvarea cuprului=Minereul de cupru
+Dizolvarea peștelui brut=Dizolvarea peștelui brut
+dizolvare piatră=Dizolvare de piatră
+
+dizolvarea celulozei=Dizolvarea celulozei
+dizolvare defectuoasă=Dizolvare malahită
+dizolvare hidroxidică=Dizolvare hidroxid
+dizolvarea proteinelor=dizolvarea proteinelor
+dizolvarea dioxidului de silicon-dioxidă=Dioxid de siliciu
+
+[combining-recipe-name]
+combinare cărbune=cărbune
+Combinarea lemnului=Lemn
+
+combinarea celulozei=Celuloză
+combinarea malachitei=Malachite
+combinaţia hidroxide=Hidroxid
+combinaţia de proteine=proteine
+combinația de silicon-dioxidă=Silicon Dioxid
+
+[technology-name]
+
+[item-group-name]
+grupa alchimicală - romance-romance-=Alchimic Romance
+
+[entity-name]
+Chimical-dissolver-entity=Dissolver chimic
+Combinator-chimical=Combinator chimic
+condenser-entitate=Condenser Energy
+developer-entity=Energy Developer
+
+[autoplace-control-name]

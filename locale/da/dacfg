@@ -1,0 +1,90 @@
+[item-name]
+carbon-element=Kulstof
+oxygen-element=Oxygen
+sulfur-element=Svovl
+hydrogen-element=Hydrogen
+iron-element=Jern
+tungsten-element=Wolfram
+copper-element=Kobber
+nitrogen-element=Nitrogen
+selenium-element=Selenium
+gold-element=Guld
+zirconium-element=Zirkonium
+nikkel-element=Nikel
+gallium-element=Gallium
+dysprosium-element=Dysprosium
+silikone-element=Silicium
+
+celluloseforbindelse=Cellulose
+malachitforbindelse=Malachit
+hydroxidforbindelse=hydroxid
+protein-compound=protein
+silikon-dioxid-forbindelse = siliciumdioxid
+
+one-emc=EMC:0001
+ten-emc=EMC:0010
+hundred-emc=EMC:0100
+Tusinde-emc=EMC:1000
+
+[fluid-name]
+emc=Energy Matter Covalence
+
+[item-description]
+carbon-element=EMC:0016
+oxygen-element=EMC:0008
+sulfur-element=EMC:0016
+hydrogen-element=EMC:0001
+jern-element=EMC:0032
+tungsten-element=EMC: 0128
+kobber-element=EMC:0032
+nitrogen-element=EMC:0016
+selen-element=EMC:0128
+Guld-element=EMC:0256
+dysprosium-element=EMC:0512
+zirconium-element=EMC:0256
+nikkel-element=EMC:0032
+gallium-element=EMC:0064
+silikone-element=EMC:0008
+
+celluloseforbindelse=C6-H10-O5
+malachitforbindelse=Cu2-C-O3-(OH)2
+hydroxidforbindelse=O-H
+protein-compound=C3-H7-N-O2-S
+silikon-dioxid-forbindelse=Si-O2
+
+[recipe-name]
+kulopløsning=Kul opløsning
+Opløsning af træ=Opløst træ
+jern-ore-dissolving=Jern Malm Opløsning
+kobber-ore-dissolving=Kobbermalm Opløsning
+rå-fish-dissolving=rå fisk Opløsning
+stone-dissolving=Sten Opløsning
+
+opløst cellulose=celluloseopløsning
+malachite-dissolving=Malachit Opløsning
+hydroxid-dissolving=hydroxid-dissolving=hydroxid-opløsning
+protein-dissolving=Protein Dissolving
+Silikon-dioxid-opløsning=Silikondioxid Opløsning
+
+[combining-recipe-name]
+kul-kombinerende=kul
+træ-kombination=Træ
+
+cellulose-kombination=Cellulose
+malachit- combining=Malachit
+hydroxidkombination=hydroxid
+proteinkombination=Protein
+silikon-dioxid-kombination=siliciumdioxid
+
+[technology-name]
+
+[item-group-name]
+alchemical-romance-group=Alchemical Romance
+
+[entity-name]
+chemical-dissolver-entity=Chemical Dissolver
+chemical-combiner-entity=Chemical Combiner
+energi-kondensator-entity=Energikondensator
+energi-udvikler-entity=Energiudvikler
+
+[autoplace-control-name]

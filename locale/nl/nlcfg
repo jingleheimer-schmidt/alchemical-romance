@@ -1,0 +1,90 @@
+[item-name]
+koolhydratenelement
+oxygen-element =zuurstof
+zwavel-element =zwavel
+waterstof-element=Waterstof
+iron-element=IJzer
+wolgsten-element=wolfraam
+koper element=Koper
+stikstof-element =Nitrogeen
+selenium-element=Selenium
+goud-element =Goud
+zirconium-element=Zirconium
+nikkel-element nikel
+gallium-element=Gallium
+dysprosium-element =Dysprosium
+silicon-element=Silicon
+
+cellulose-compound=Cellulose
+malachite-compound=Malachite
+hydroxide-compound=Hydroxide
+eiwit=proteïnen
+silicon-dioxide-kompas=Silicon Dioxide
+
+one-emc=EMC:0001
+10-emc=EMC:0010
+honderd-emc=EMC:0100
+duizend-emc=EMC:1000
+
+[fluid-name]
+emc=Energy Matter Covalence
+
+[item-description]
+carbon-element=EMC:0016
+oxygen-element=EMC:0008
+sulfur-element=EMC:0016
+hydrogen-element=EMC:0001
+iron-element=EMC:0032
+tungsten-element=EMC:0128
+copper-element=EMC:0032
+nitrogen-element =EMC:0016
+selenium-element=EMC:0128
+goud-element=EMC:0256
+dysprosium-element =EMC:0512
+zirconium-element=EMC:0256
+nikkel-element=EMC:0032
+gallium-element=EMC:0064
+silicon-element=EMC:0008
+
+cellulose-kompas=C6-H10-O5
+malachite-compound=Cu2-C-O3-(OH)2
+hydroxide-compound=O-H
+eiwit=C3-H7-N-O2-S
+silicon-dioxide-compound=Si-O2
+
+[recipe-name]
+steenkoolvrijstelling=Kool Verslinden
+Hout-dissolving=Hout Verslinden
+iron-ore-dissolving=IJzeren Erts Dissolving
+koper-ofe-dissolving=Koper Erts Dissolving
+raw-vis-dissolving=Rauwe Vis Aflossen
+stone-dissolving=Stenen Verslinden
+
+cellulose-dissolving=Cellulose afzuigen
+malachite-dissolving=Malachite Dissolving
+hydroxide-dissolving=Hydroxide verlossing
+proteïin-dissolving=Protein Verslinden
+silicon-dioxide-dissolving=Silicon Dioxide Dissolving
+
+[combining-recipe-name]
+steenkoolcombinatie=Steenkool
+Hout-combining=Hout
+
+cellulose-combinatie=Kellulose
+malachite-combinatie=Malachite
+hydroxide-combining=Hydroxide
+eiwit-combinatie=Protein
+silicon-dioxide-combining=Silicon Dioxide
+
+[technology-name]
+
+[item-group-name]
+alchemische-romance-groep=Alchemische Romance
+
+[entity-name]
+chemische-dissolver-entity=Chemische Dissolver
+chemische-combiner-entity=Chemische Combineer
+energiecondenser-entity=Energy Condenser
+energie-ontwikkelaar-entity=Energie Ontwikkelaar
+
+[autoplace-control-name]
